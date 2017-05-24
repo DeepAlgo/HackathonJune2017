@@ -1,0 +1,899 @@
+      var data = {
+  "nodeList": [
+    {
+      "key": "91_3536",
+      "calledGraphId": null,
+      "text": "if obj instanceof Card",
+      "description": [
+        "if obj instanceof Card"
+      ],
+      "category": "OfCondition",
+      "topoIndex": 33.0,
+      "forwardDepth": 5.0,
+      "backwardDepth": 16.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Card.java",
+        "lineStart": 170,
+        "lineEnd": 174
+      },
+      "isGroup": true
+    },
+    {
+      "key": "91_3516",
+      "calledGraphId": null,
+      "text": "obj instanceof Card",
+      "description": [
+        "obj instanceof Card"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 30.0,
+      "forwardDepth": 3.0,
+      "backwardDepth": 14.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Card.java",
+        "lineStart": 170,
+        "lineEnd": 170
+      }
+    },
+    {
+      "key": "91_3511",
+      "calledGraphId": null,
+      "text": "obj",
+      "description": [
+        "obj"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 14.0,
+      "forwardDepth": 1.0,
+      "backwardDepth": 1.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Card.java",
+        "lineStart": 170,
+        "lineEnd": 170
+      }
+    },
+    {
+      "key": "91_3514",
+      "calledGraphId": null,
+      "text": "Card",
+      "description": [
+        "Card"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 11.0,
+      "forwardDepth": 1.0,
+      "backwardDepth": 12.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Card.java",
+        "lineStart": 170,
+        "lineEnd": 170
+      }
+    },
+    {
+      "key": "91_3531",
+      "calledGraphId": null,
+      "text": "(hashCode of ((Card) obj)) equals hashCode",
+      "description": [
+        "(hashCode of ((Card) obj)) equals hashCode"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 27.0,
+      "forwardDepth": 14.0,
+      "backwardDepth": 14.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Card.java",
+        "lineStart": 171,
+        "lineEnd": 171
+      },
+      "group": "91_3536"
+    },
+    {
+      "key": "91_3529",
+      "calledGraphId": null,
+      "text": "(hashCode of ((Card) obj)) equals hashCode",
+      "description": [
+        "(hashCode of ((Card) obj)) equals hashCode"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 25.0,
+      "forwardDepth": 12.0,
+      "backwardDepth": 12.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Card.java",
+        "lineStart": 171,
+        "lineEnd": 171
+      },
+      "group": "91_3536"
+    },
+    {
+      "key": "91_3524",
+      "calledGraphId": null,
+      "text": "((Card) obj)",
+      "description": [
+        "((Card) obj)"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 21.0,
+      "forwardDepth": 8.0,
+      "backwardDepth": 8.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Card.java",
+        "lineStart": 171,
+        "lineEnd": 171
+      },
+      "group": "91_3536"
+    },
+    {
+      "key": "91_3523",
+      "calledGraphId": null,
+      "text": "(Card) obj",
+      "description": [
+        "(Card) obj"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 19.0,
+      "forwardDepth": 6.0,
+      "backwardDepth": 6.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Card.java",
+        "lineStart": 171,
+        "lineEnd": 171
+      },
+      "group": "91_3536"
+    },
+    {
+      "key": "91_3520",
+      "calledGraphId": null,
+      "text": "Card",
+      "description": [
+        "Card"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 8.0,
+      "forwardDepth": 2.0,
+      "backwardDepth": 14.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Card.java",
+        "lineStart": 171,
+        "lineEnd": 171
+      },
+      "group": "91_3536"
+    },
+    {
+      "key": "91_3521",
+      "calledGraphId": null,
+      "text": "obj",
+      "description": [
+        "obj"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 17.0,
+      "forwardDepth": 4.0,
+      "backwardDepth": 4.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Card.java",
+        "lineStart": 171,
+        "lineEnd": 171
+      },
+      "group": "91_3536"
+    },
+    {
+      "key": "91_3525",
+      "calledGraphId": null,
+      "text": "How to manage rank NO_OF_SUITS suit from card with code?",
+      "description": [
+        "hashCode"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 23.0,
+      "forwardDepth": 10.0,
+      "backwardDepth": 10.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Card.java",
+        "lineStart": 171,
+        "lineEnd": 171
+      },
+      "group": "91_3536",
+      "isGroup": true
+    },
+    {
+      "key": "91_3527",
+      "calledGraphId": null,
+      "text": "hashCode",
+      "description": [
+        "hashCode"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 0.0,
+      "forwardDepth": 0.0,
+      "backwardDepth": 10.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Card.java",
+        "lineStart": 171,
+        "lineEnd": 171
+      },
+      "group": "91_3536",
+      "isGroup": true
+    },
+    {
+      "key": "91_3535",
+      "calledGraphId": null,
+      "text": "if obj instanceof Card",
+      "description": [
+        "if obj instanceof Card"
+      ],
+      "category": "OfConditionAlt",
+      "topoIndex": 32.0,
+      "forwardDepth": 5.0,
+      "backwardDepth": 16.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Card.java",
+        "lineStart": 172,
+        "lineEnd": 174
+      },
+      "isGroup": true
+    },
+    {
+      "key": "91_3534",
+      "calledGraphId": null,
+      "text": "return false",
+      "description": [
+        "return false"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 3.0,
+      "forwardDepth": 2.0,
+      "backwardDepth": 14.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Card.java",
+        "lineStart": 173,
+        "lineEnd": 173
+      },
+      "group": "91_3535"
+    },
+    {
+      "key": "620_3510_5706",
+      "calledGraphId": null,
+      "text": "obj",
+      "description": [
+        "obj"
+      ],
+      "category": "OfInput",
+      "topoIndex": 13.0,
+      "forwardDepth": 0.0,
+      "backwardDepth": 0.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Card.java",
+        "lineStart": 169,
+        "lineEnd": 169
+      }
+    },
+    {
+      "key": "620_3514_5707",
+      "calledGraphId": null,
+      "text": "Card",
+      "description": [
+        "Card"
+      ],
+      "category": "OfInput",
+      "topoIndex": 10.0,
+      "forwardDepth": 0.0,
+      "backwardDepth": 11.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Card.java",
+        "lineStart": 170,
+        "lineEnd": 170
+      }
+    },
+    {
+      "key": "620_3520_5708",
+      "calledGraphId": null,
+      "text": "Card",
+      "description": [
+        "Card"
+      ],
+      "category": "OfInput",
+      "topoIndex": 6.0,
+      "forwardDepth": 0.0,
+      "backwardDepth": 12.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Card.java",
+        "lineStart": 171,
+        "lineEnd": 171
+      }
+    },
+    {
+      "key": "620_3532_5709",
+      "calledGraphId": null,
+      "text": "false",
+      "description": [
+        "false"
+      ],
+      "category": "OfValue",
+      "topoIndex": 1.0,
+      "forwardDepth": 0.0,
+      "backwardDepth": 12.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Card.java",
+        "lineStart": 173,
+        "lineEnd": 173
+      }
+    },
+    {
+      "key": "620_3510_5710",
+      "calledGraphId": null,
+      "text": "obj",
+      "description": [
+        "obj"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 15.0,
+      "forwardDepth": 2.0,
+      "backwardDepth": 2.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Card.java",
+        "lineStart": 169,
+        "lineEnd": 169
+      }
+    },
+    {
+      "key": "620_3514_5711",
+      "calledGraphId": null,
+      "text": "Card",
+      "description": [
+        "Card"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 12.0,
+      "forwardDepth": 2.0,
+      "backwardDepth": 13.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Card.java",
+        "lineStart": 170,
+        "lineEnd": 170
+      }
+    },
+    {
+      "key": "620_3516_5712",
+      "calledGraphId": null,
+      "text": "obj instanceof Card",
+      "description": [
+        "obj instanceof Card"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 31.0,
+      "forwardDepth": 4.0,
+      "backwardDepth": 15.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Card.java",
+        "lineStart": 170,
+        "lineEnd": 170
+      }
+    },
+    {
+      "key": "620_3534_5713",
+      "calledGraphId": null,
+      "text": "(hashCode of ((Card) obj)) equals hashCode or false",
+      "description": [
+        "(hashCode of ((Card) obj)) equals hashCode OR",
+        "return false"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 29.0,
+      "forwardDepth": 16.0,
+      "backwardDepth": 16.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Card.java",
+        "lineStart": 173,
+        "lineEnd": 173
+      }
+    },
+    {
+      "key": "620_3520_5714",
+      "calledGraphId": null,
+      "text": "Card",
+      "description": [
+        "Card"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 9.0,
+      "forwardDepth": 3.0,
+      "backwardDepth": 15.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Card.java",
+        "lineStart": 171,
+        "lineEnd": 171
+      },
+      "group": "91_3536"
+    },
+    {
+      "key": "620_3510_5715",
+      "calledGraphId": null,
+      "text": "obj",
+      "description": [
+        "obj"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 18.0,
+      "forwardDepth": 5.0,
+      "backwardDepth": 5.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Card.java",
+        "lineStart": 169,
+        "lineEnd": 169
+      },
+      "group": "91_3536"
+    },
+    {
+      "key": "620_3523_5716",
+      "calledGraphId": null,
+      "text": "(Card) obj",
+      "description": [
+        "(Card) obj"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 20.0,
+      "forwardDepth": 7.0,
+      "backwardDepth": 7.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Card.java",
+        "lineStart": 171,
+        "lineEnd": 171
+      },
+      "group": "91_3536"
+    },
+    {
+      "key": "620_3524_5717",
+      "calledGraphId": null,
+      "text": "((Card) obj)",
+      "description": [
+        "((Card) obj)"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 22.0,
+      "forwardDepth": 9.0,
+      "backwardDepth": 9.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Card.java",
+        "lineStart": 171,
+        "lineEnd": 171
+      },
+      "group": "91_3536"
+    },
+    {
+      "key": "620_3525_5718",
+      "calledGraphId": null,
+      "text": "hashCode",
+      "description": [
+        "hashCode"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 24.0,
+      "forwardDepth": 11.0,
+      "backwardDepth": 11.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Card.java",
+        "lineStart": 171,
+        "lineEnd": 171
+      },
+      "group": "91_3536"
+    },
+    {
+      "key": "620_3527_5719",
+      "calledGraphId": null,
+      "text": "hashCode",
+      "description": [
+        "hashCode"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 5.0,
+      "forwardDepth": 1.0,
+      "backwardDepth": 11.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Card.java",
+        "lineStart": 171,
+        "lineEnd": 171
+      },
+      "group": "91_3536"
+    },
+    {
+      "key": "620_3529_5720",
+      "calledGraphId": null,
+      "text": "(hashCode of ((Card) obj)) equals hashCode",
+      "description": [
+        "(hashCode of ((Card) obj)) equals hashCode"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 26.0,
+      "forwardDepth": 13.0,
+      "backwardDepth": 13.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Card.java",
+        "lineStart": 171,
+        "lineEnd": 171
+      },
+      "group": "91_3536"
+    },
+    {
+      "key": "620_3520_5708_91_3536",
+      "calledGraphId": null,
+      "text": "Card",
+      "description": [
+        "Card"
+      ],
+      "category": "OfInput",
+      "topoIndex": 7.0,
+      "forwardDepth": 1.0,
+      "backwardDepth": 13.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Card.java",
+        "lineStart": 171,
+        "lineEnd": 171
+      },
+      "group": "91_3536"
+    },
+    {
+      "key": "620_3534_5713_91_3535",
+      "calledGraphId": null,
+      "text": "return false",
+      "description": [
+        "return false"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 4.0,
+      "forwardDepth": 3.0,
+      "backwardDepth": 15.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Card.java",
+        "lineStart": 173,
+        "lineEnd": 173
+      },
+      "group": "91_3535"
+    },
+    {
+      "key": "620_3532_5709_91_3535",
+      "calledGraphId": null,
+      "text": "false",
+      "description": [
+        "false"
+      ],
+      "category": "OfValue",
+      "topoIndex": 2.0,
+      "forwardDepth": 1.0,
+      "backwardDepth": 13.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Card.java",
+        "lineStart": 173,
+        "lineEnd": 173
+      },
+      "group": "91_3535"
+    },
+    {
+      "key": "620_3510_5710_91_3536",
+      "calledGraphId": null,
+      "text": "obj",
+      "description": [
+        "obj"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 16.0,
+      "forwardDepth": 3.0,
+      "backwardDepth": 3.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Card.java",
+        "lineStart": 169,
+        "lineEnd": 169
+      },
+      "group": "91_3536"
+    },
+    {
+      "key": "620_3534_5713_91_3536",
+      "calledGraphId": null,
+      "text": "(hashCode of ((Card) obj)) equals hashCode",
+      "description": [
+        "(hashCode of ((Card) obj)) equals hashCode"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 28.0,
+      "forwardDepth": 15.0,
+      "backwardDepth": 15.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Card.java",
+        "lineStart": 173,
+        "lineEnd": 173
+      },
+      "group": "91_3536"
+    },
+    {
+      "key": "3611_output",
+      "calledGraphId": null,
+      "text": "Card",
+      "description": [
+        "Card"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 34.0,
+      "forwardDepth": 4.0,
+      "backwardDepth": 16.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Card.java",
+        "lineStart": 171,
+        "lineEnd": 171
+      }
+    }
+  ],
+  "linkList": [
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "620_3516_5712"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "91_3536"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "91_3516"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "620_3516_5712"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "620_3510_5710"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "91_3516"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "620_3514_5711"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "91_3516"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "91_3511"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "620_3510_5710"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "620_3510_5706"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "91_3511"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "91_3514"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "620_3514_5711"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "620_3514_5707"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "91_3514"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "91_3531"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "620_3534_5713_91_3536"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "620_3529_5720"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "91_3531"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "91_3529"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "620_3529_5720"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "620_3525_5718"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "91_3529"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "620_3527_5719"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "91_3529"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "91_3524"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "620_3524_5717"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "620_3523_5716"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "91_3524"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "91_3523"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "620_3523_5716"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "620_3510_5715"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "91_3523"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "91_3520"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "620_3520_5714"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "620_3520_5708_91_3536"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "91_3520"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "91_3521"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "620_3510_5715"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "620_3510_5710_91_3536"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "91_3521"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "91_3525"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "620_3525_5718"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "620_3524_5717"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "91_3525"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "91_3527"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "620_3527_5719"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "620_3516_5712"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "91_3535"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "91_3534"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "620_3534_5713_91_3535"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "620_3532_5709_91_3535"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "91_3534"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "620_3520_5708"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "620_3520_5708_91_3536"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "620_3532_5709"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "620_3532_5709_91_3535"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "620_3510_5710"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "620_3510_5710_91_3536"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "620_3534_5713_91_3535"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "620_3534_5713"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "620_3534_5713_91_3536"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "620_3534_5713"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "620_3520_5714"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "3611_output"
+      }
+    }
+  ],
+  "meta": {
+    "methodName": "org.ozsoft.texasholdem.Card.equals(Object) [Public]",
+    "codeReference": {
+      "fileName": "ozsoft/texasholdem/Card.java",
+      "lineStart": 168,
+      "lineEnd": 175
+    }
+  }
+};

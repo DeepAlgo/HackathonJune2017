@@ -1,0 +1,153 @@
+# JSON Schema documentation:
+# https://spacetelescope.github.io/understanding-json-schema/
+
+$schema: http://json-schema.org/draft-04/schema#
+id: http://deepalgo.com/schemas/ioca_json_schema.yml
+definitions:
+  nodeKey:
+    type: string
+    pattern: ^[a-zA-Z0-9_]+$
+
+  edgeEnd:
+    type: object
+    additionalProperties: false
+    properties:
+      nodeIdInCurrentGraph:
+        $ref: ! "#/definitions/nodeKey"
+        description: node id withing this graph
+      nodeIdInCalledGraph:
+        $ref: ! "#/definitions/nodeKey"
+        description: node id within the called graph
+
+  codeReference:
+    type: object
+    description: Location of the corresponding source code
+    additionalProperties: false
+    properties:
+      fileName:
+        type: string
+      lineStart:
+        type: integer
+      lineEnd:
+        type: integer
+
+  node:
+    type: object
+    additionalProperties: false
+    properties:
+      key:
+        description: The key is an identifying id.
+        $ref: ! '#/definitions/nodeKey'
+      codeReference:
+        $ref: ! '#/definitions/codeReference'
+      text:
+        type: string
+        description: >
+          A short textual label for this node, representing either the piece
+          of data that the node represents (input or output), the action that
+          the node performs (activity) or the expression that must be true
+          in order to enter the conditional branch (condition).
+      description:
+        description: >
+          Detailed textual information about the possible values/states of
+          this node.
+        type: array
+        items:
+          type: string
+      isGroup:
+        type: boolean
+        description: >
+          When true, this node can "contain" other nodes.
+          For example, a Condition is always a group and contains some nodes of
+          the same diagram, that have their `group` property set to the `key` of
+          the condition.
+      group:
+        $ref: ! '#/definitions/nodeKey'
+        description: >
+          The key of another node of this same graph that "contains" this node.
+      category:
+        description: >
+          Type of diagram node.
+        type: string
+        enum:
+          - OfInput
+          - OfValue
+          - OfOutput
+          - OfCondition
+          - OfConditionAlt
+          - OfLoop
+          - OfActivity
+      calledGraphId:
+        type: [string,"null"]
+        description: >
+          This field is present if and only if the node corresponds to the call
+          of a function in the program. In that case, this field is the ID of
+          another diagram, which can be loaded into this one.
+      topoIndex:
+        description: Order of this node in a topological sort.
+        type: number
+      forwardDepth:
+        description: >
+          Depth of this node when walking the graph forward. All entry nodes
+          (probably inputs) have 0 and the number only increases while following
+          edges, up to `d` (= the maximum depth) for one of the exit nodes.
+        type: number
+      backwardDepth:
+        description: >
+          Depth of this node when walking the graph backward. All exit nodes
+          (probably outputs) have `d` (= the maximum depth) and the number only
+          decreases when following inedges, down to 0 for one of the entry nodes.
+        type: number
+    required:
+      - key
+      - codeReference
+      - text
+      - description
+      # - isGroup
+      # - group
+      - category
+      - calledGraphId
+      - topoIndex
+      - forwardDepth
+      - backwardDepth
+
+  link:
+    type: object
+    additionalProperties: false
+    description: Directed edge between two nodes
+    properties:
+      from:
+        $ref: ! "#/definitions/edgeEnd"
+        description: Node out of which the link starts
+      to:
+        $ref: ! "#/definitions/edgeEnd"
+        description: Node into which the link stops
+    required:
+      - from
+      - to
+
+type: object
+properties:
+  nodeList:
+    description: Array of diagram nodes
+    type: array
+    items:
+      $ref: ! '#/definitions/node'
+  linkList:
+    type: array
+    items:
+      $ref: ! '#/definitions/link'
+    description: >
+      List of all links in the graph
+  meta:
+    type: object
+    description: More information about this graph
+    properties:
+      title:
+        type: string
+        description: Title of this algorithm, as a "How to?" question.
+      methodName:
+        type: string
+        description: Name and signature of the method represented by this graph.
+      codeReference:
+        $ref: ! '#/definitions/codeReference'

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Deep Algo DFG Viewer</title>
+  <script src="jscripts/codecaseutils/sync.js"></script>
+  <script src="jscripts/codecaseutils/filesystem.js"></script>
+  <script src="jscripts/codecaseutils/codecaseunderscore.js"></script>
+  <script src="jquery-1.11.2.min.js"></script>
+  <script src="jquery-ui.min.js"></script>
+  <script src="go.js"></script>
+  <script src="helpers.js"></script>
+  <script src="dataflow_commons.js"></script>
+  <script src="dataflow_layout.js"></script>
+  <script src="dataflow_links.js"></script>
+  <script src="dataflow_diagram.js"></script>
+  <script src="dataflow_toolbar.js"></script>
+  <script src="dataflow_selector.js"></script>
+  <script src="dataflow_client.js"></script>
+  <link rel="stylesheet" type="text/css" href="diagram.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="jquery-ui.min.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="jquery-ui.structure.min.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="jquery-ui.theme.min.css" media="screen" />
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <style>
+    .toolbar {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      width: 200px;
+      margin-left: -100px;
+      text-align: center;
+      z-index: 99;
+    }
+    .toolbar-button {
+      background: white;
+      width: 26px;
+      height: 26px;
+      padding: 5px;
+      cursor: pointer;
+    }
+    .toolbar-button-disabled {
+      opacity: 0.1;
+      cursor: default;
+    }
+  </style>
+</head>
+<body class="deepalgo">
+  <div id="menu">
+    <div id="buttons" >
+      <div id="selector"></div>
+    </div>
+  </div>
+  <div id="diagram-container">
+    <div class="toolbar">
+      <img class="toolbar-button" id="btn-hide-links" src="images/Hide.png" />
+    </div>
+    <div id="globalDiagram" class="height100"></div>
+  </div>
+  <script>
+  var client = new DataflowClient();
+  var diagram = new DataflowDiagram(client);
+  var selector = new DataflowSelector('selector');
+  selector.onGraphSelected(function (graphId) {
+    diagram.displayDiagram(graphId);
+  });
+  var toolbar = new DataflowToolbar(diagram);
+  WebFont.load({
+    google: {
+      families: ['Open Sans:400,600'],
+    },
+    active: diagram.redraw.bind(diagram),
+    inactive: diagram.redraw.bind(diagram),
+  });
+  </script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+#!/usr/bin/env ruby
+
+require 'json'
+require 'pathname'
+
+root = Pathname.new(__FILE__) + '../..'
+samples = root + 'samples'
+dfgviewer = root + 'dfgviewer'
+
+data = dfgviewer + 'data'
+data.mkpath
+data.each_child(&:unlink)
+
+entrypoints = []
+
+samples.each_child(false) do |sample|
+  Dir.glob(samples + sample + 'dfg' + '*.json') do |json|
+    next if json.to_s.end_with?('_pgg.json')
+    graph_id = "#{sample}_#{json.to_s.match(/(\w+)\.json\z/)[1]}"
+    contents = IO.read(json)
+    info = JSON.parse(contents, symbolize_names: true)
+    entrypoints << (info[:meta] || { title: graph_id }).merge(graphId: graph_id)
+    IO.write(data + "#{graph_id}.js", <<-EOF)
+      var data = #{contents};
+    EOF
+  end
+end
+
+IO.write(dfgviewer + 'entrypoints.js', <<-EOF)
+  var data = #{JSON.pretty_generate(entrypoints)};
+EOF

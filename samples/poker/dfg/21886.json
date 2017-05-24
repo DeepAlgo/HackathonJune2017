@@ -1,0 +1,985 @@
+{
+  "nodeList": [
+    {
+      "key": "96_28275",
+      "calledGraphId": null,
+      "text": "if Client IsOfType DummyBot",
+      "description": [
+        "if Client IsOfType DummyBot"
+      ],
+      "category": "OfCondition",
+      "topoIndex": 25.0,
+      "forwardDepth": 5.0,
+      "backwardDepth": 6.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      },
+      "isGroup": true
+    },
+    {
+      "key": "96_28276",
+      "calledGraphId": null,
+      "text": "Client IsOfType DummyBot",
+      "description": [
+        "Client IsOfType DummyBot"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 15.0,
+      "forwardDepth": 3.0,
+      "backwardDepth": 4.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      }
+    },
+    {
+      "key": "96_28278",
+      "calledGraphId": null,
+      "text": "DummyBot",
+      "description": [
+        "DummyBot"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 10.0,
+      "forwardDepth": 1.0,
+      "backwardDepth": 2.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      }
+    },
+    {
+      "key": "96_28279",
+      "calledGraphId": null,
+      "text": "return handStarted() dealer",
+      "description": [
+        "return handStarted() dealer"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 2.0,
+      "forwardDepth": 0.0,
+      "backwardDepth": 4.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      },
+      "group": "96_28275"
+    },
+    {
+      "key": "96_28280",
+      "calledGraphId": null,
+      "text": "handStarted() dealer",
+      "description": [
+        "handStarted() dealer"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 39.0,
+      "forwardDepth": 4.0,
+      "backwardDepth": 6.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      },
+      "group": "96_28275",
+      "isGroup": true
+    },
+    {
+      "key": "96_28281",
+      "calledGraphId": null,
+      "text": "dealer",
+      "description": [
+        "dealer"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 37.0,
+      "forwardDepth": 2.0,
+      "backwardDepth": 4.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      },
+      "group": "96_28275"
+    },
+    {
+      "key": "96_28282",
+      "calledGraphId": null,
+      "text": "if Client IsOfType BasicBot",
+      "description": [
+        "if Client IsOfType BasicBot"
+      ],
+      "category": "OfCondition",
+      "topoIndex": 23.0,
+      "forwardDepth": 5.0,
+      "backwardDepth": 6.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      },
+      "isGroup": true
+    },
+    {
+      "key": "96_28283",
+      "calledGraphId": null,
+      "text": "Client IsOfType BasicBot",
+      "description": [
+        "Client IsOfType BasicBot"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 14.0,
+      "forwardDepth": 3.0,
+      "backwardDepth": 4.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      }
+    },
+    {
+      "key": "96_28285",
+      "calledGraphId": null,
+      "text": "BasicBot",
+      "description": [
+        "BasicBot"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 7.0,
+      "forwardDepth": 1.0,
+      "backwardDepth": 2.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      }
+    },
+    {
+      "key": "96_28286",
+      "calledGraphId": null,
+      "text": "return handStarted() dealer",
+      "description": [
+        "return handStarted() dealer"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 1.0,
+      "forwardDepth": 0.0,
+      "backwardDepth": 4.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      },
+      "group": "96_28282"
+    },
+    {
+      "key": "96_28287",
+      "calledGraphId": null,
+      "text": "handStarted() dealer",
+      "description": [
+        "handStarted() dealer"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 34.0,
+      "forwardDepth": 4.0,
+      "backwardDepth": 4.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      },
+      "group": "96_28282",
+      "isGroup": true
+    },
+    {
+      "key": "96_28288",
+      "calledGraphId": null,
+      "text": "dealer",
+      "description": [
+        "dealer"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 32.0,
+      "forwardDepth": 2.0,
+      "backwardDepth": 2.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      },
+      "group": "96_28282"
+    },
+    {
+      "key": "96_28289",
+      "calledGraphId": null,
+      "text": "if Client IsOfType Main",
+      "description": [
+        "if Client IsOfType Main"
+      ],
+      "category": "OfCondition",
+      "topoIndex": 21.0,
+      "forwardDepth": 5.0,
+      "backwardDepth": 6.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      },
+      "isGroup": true
+    },
+    {
+      "key": "96_28290",
+      "calledGraphId": null,
+      "text": "Client IsOfType Main",
+      "description": [
+        "Client IsOfType Main"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 13.0,
+      "forwardDepth": 3.0,
+      "backwardDepth": 4.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      }
+    },
+    {
+      "key": "96_28292",
+      "calledGraphId": null,
+      "text": "Main",
+      "description": [
+        "Main"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 4.0,
+      "forwardDepth": 1.0,
+      "backwardDepth": 2.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      }
+    },
+    {
+      "key": "96_28293",
+      "calledGraphId": null,
+      "text": "return handStarted() dealer",
+      "description": [
+        "return handStarted() dealer"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 0.0,
+      "forwardDepth": 0.0,
+      "backwardDepth": 4.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      },
+      "group": "96_28289"
+    },
+    {
+      "key": "96_28294",
+      "calledGraphId": null,
+      "text": "handStarted() dealer",
+      "description": [
+        "handStarted() dealer"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 30.0,
+      "forwardDepth": 4.0,
+      "backwardDepth": 6.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      },
+      "group": "96_28289",
+      "isGroup": true
+    },
+    {
+      "key": "96_28295",
+      "calledGraphId": null,
+      "text": "dealer",
+      "description": [
+        "dealer"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 28.0,
+      "forwardDepth": 2.0,
+      "backwardDepth": 4.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      },
+      "group": "96_28289"
+    },
+    {
+      "key": "411_28297_2041",
+      "calledGraphId": null,
+      "text": "Client",
+      "description": [
+        "Client"
+      ],
+      "category": "OfInput",
+      "topoIndex": 12.0,
+      "forwardDepth": 0.0,
+      "backwardDepth": 3.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      }
+    },
+    {
+      "key": "411_28298_2042",
+      "calledGraphId": null,
+      "text": "DummyBot",
+      "description": [
+        "DummyBot"
+      ],
+      "category": "OfInput",
+      "topoIndex": 9.0,
+      "forwardDepth": 0.0,
+      "backwardDepth": 1.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      }
+    },
+    {
+      "key": "411_21882_2043",
+      "calledGraphId": null,
+      "text": "dealer",
+      "description": [
+        "dealer"
+      ],
+      "category": "OfInput",
+      "topoIndex": 26.0,
+      "forwardDepth": 0.0,
+      "backwardDepth": 0.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Client.java",
+        "lineStart": 62,
+        "lineEnd": 62
+      }
+    },
+    {
+      "key": "411_28304_2044",
+      "calledGraphId": null,
+      "text": "BasicBot",
+      "description": [
+        "BasicBot"
+      ],
+      "category": "OfInput",
+      "topoIndex": 6.0,
+      "forwardDepth": 0.0,
+      "backwardDepth": 1.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      }
+    },
+    {
+      "key": "411_28310_2045",
+      "calledGraphId": null,
+      "text": "Main",
+      "description": [
+        "Main"
+      ],
+      "category": "OfInput",
+      "topoIndex": 3.0,
+      "forwardDepth": 0.0,
+      "backwardDepth": 1.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      }
+    },
+    {
+      "key": "411_28298_2046",
+      "calledGraphId": null,
+      "text": "DummyBot",
+      "description": [
+        "DummyBot"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 11.0,
+      "forwardDepth": 2.0,
+      "backwardDepth": 3.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      }
+    },
+    {
+      "key": "411_28276_2047",
+      "calledGraphId": null,
+      "text": "Client IsOfType DummyBot",
+      "description": [
+        "Client IsOfType DummyBot"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 24.0,
+      "forwardDepth": 4.0,
+      "backwardDepth": 5.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      }
+    },
+    {
+      "key": "411_28304_2048",
+      "calledGraphId": null,
+      "text": "BasicBot",
+      "description": [
+        "BasicBot"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 8.0,
+      "forwardDepth": 2.0,
+      "backwardDepth": 3.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      }
+    },
+    {
+      "key": "411_28283_2049",
+      "calledGraphId": null,
+      "text": "Client IsOfType BasicBot",
+      "description": [
+        "Client IsOfType BasicBot"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 22.0,
+      "forwardDepth": 4.0,
+      "backwardDepth": 5.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      }
+    },
+    {
+      "key": "411_28310_2050",
+      "calledGraphId": null,
+      "text": "Main",
+      "description": [
+        "Main"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 5.0,
+      "forwardDepth": 2.0,
+      "backwardDepth": 3.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      }
+    },
+    {
+      "key": "411_28290_2051",
+      "calledGraphId": null,
+      "text": "Client IsOfType Main",
+      "description": [
+        "Client IsOfType Main"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 20.0,
+      "forwardDepth": 4.0,
+      "backwardDepth": 5.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      }
+    },
+    {
+      "key": "411_21882_2052",
+      "calledGraphId": null,
+      "text": "dealer",
+      "description": [
+        "dealer"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 29.0,
+      "forwardDepth": 3.0,
+      "backwardDepth": 5.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Client.java",
+        "lineStart": 62,
+        "lineEnd": 62
+      },
+      "group": "96_28289"
+    },
+    {
+      "key": "411_28293_2053",
+      "calledGraphId": null,
+      "text": "handStarted() dealer",
+      "description": [
+        "handStarted() dealer"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 19.0,
+      "forwardDepth": 2.0,
+      "backwardDepth": 6.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      }
+    },
+    {
+      "key": "411_21882_2054",
+      "calledGraphId": null,
+      "text": "dealer",
+      "description": [
+        "dealer"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 33.0,
+      "forwardDepth": 3.0,
+      "backwardDepth": 3.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Client.java",
+        "lineStart": 62,
+        "lineEnd": 62
+      },
+      "group": "96_28282"
+    },
+    {
+      "key": "411_27154_2055",
+      "calledGraphId": null,
+      "text": "cards",
+      "description": [
+        "cards"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 35.0,
+      "forwardDepth": 5.0,
+      "backwardDepth": 5.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/bots/BasicBot.java",
+        "lineStart": 64,
+        "lineEnd": 64
+      },
+      "group": "96_28282"
+    },
+    {
+      "key": "411_21882_2056",
+      "calledGraphId": null,
+      "text": "dealer",
+      "description": [
+        "dealer"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 38.0,
+      "forwardDepth": 3.0,
+      "backwardDepth": 5.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Client.java",
+        "lineStart": 62,
+        "lineEnd": 62
+      },
+      "group": "96_28275"
+    },
+    {
+      "key": "411_21882_2043_96_28275",
+      "calledGraphId": null,
+      "text": "dealer",
+      "description": [
+        "dealer"
+      ],
+      "category": "OfInput",
+      "topoIndex": 36.0,
+      "forwardDepth": 1.0,
+      "backwardDepth": 3.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Client.java",
+        "lineStart": 62,
+        "lineEnd": 62
+      },
+      "group": "96_28275"
+    },
+    {
+      "key": "411_21882_2043_96_28282",
+      "calledGraphId": null,
+      "text": "dealer",
+      "description": [
+        "dealer"
+      ],
+      "category": "OfInput",
+      "topoIndex": 31.0,
+      "forwardDepth": 1.0,
+      "backwardDepth": 1.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Client.java",
+        "lineStart": 62,
+        "lineEnd": 62
+      },
+      "group": "96_28282"
+    },
+    {
+      "key": "411_21882_2043_96_28289",
+      "calledGraphId": null,
+      "text": "dealer",
+      "description": [
+        "dealer"
+      ],
+      "category": "OfInput",
+      "topoIndex": 27.0,
+      "forwardDepth": 1.0,
+      "backwardDepth": 3.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Client.java",
+        "lineStart": 62,
+        "lineEnd": 62
+      },
+      "group": "96_28289"
+    },
+    {
+      "key": "411_28293_2053_96_28289",
+      "calledGraphId": null,
+      "text": "handStarted() dealer",
+      "description": [
+        "handStarted() dealer"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 16.0,
+      "forwardDepth": 1.0,
+      "backwardDepth": 5.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      },
+      "group": "96_28289"
+    },
+    {
+      "key": "411_28293_2053_96_28282",
+      "calledGraphId": null,
+      "text": "handStarted() dealer",
+      "description": [
+        "handStarted() dealer"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 17.0,
+      "forwardDepth": 1.0,
+      "backwardDepth": 5.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      },
+      "group": "96_28282"
+    },
+    {
+      "key": "411_28293_2053_96_28275",
+      "calledGraphId": null,
+      "text": "handStarted() dealer",
+      "description": [
+        "handStarted() dealer"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 18.0,
+      "forwardDepth": 1.0,
+      "backwardDepth": 5.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      },
+      "group": "96_28275"
+    },
+    {
+      "key": "3611_output",
+      "calledGraphId": null,
+      "text": "cards",
+      "description": [
+        "cards"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 40.0,
+      "forwardDepth": 6.0,
+      "backwardDepth": 6.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/bots/BasicBot.java",
+        "lineStart": 64,
+        "lineEnd": 64
+      }
+    }
+  ],
+  "linkList": [
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "411_28276_2047"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "96_28275"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "96_28276"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "411_28276_2047"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "411_28297_2041"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "96_28276"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "411_28298_2046"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "96_28276"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "96_28278"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "411_28298_2046"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "411_28298_2042"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "96_28278"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "96_28279"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "411_28293_2053_96_28275"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "411_21882_2056"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "96_28280"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "96_28281"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "411_21882_2056"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "411_21882_2043_96_28275"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "96_28281"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "411_28283_2049"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "96_28282"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "96_28283"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "411_28283_2049"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "411_28297_2041"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "96_28283"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "411_28304_2048"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "96_28283"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "96_28285"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "411_28304_2048"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "411_28304_2044"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "96_28285"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "96_28286"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "411_28293_2053_96_28282"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "96_28287"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "411_27154_2055"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "411_21882_2054"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "96_28287"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "96_28288"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "411_21882_2054"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "411_21882_2043_96_28282"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "96_28288"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "411_28290_2051"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "96_28289"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "96_28290"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "411_28290_2051"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "411_28297_2041"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "96_28290"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "411_28310_2050"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "96_28290"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "96_28292"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "411_28310_2050"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "411_28310_2045"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "96_28292"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "96_28293"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "411_28293_2053_96_28289"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "411_21882_2052"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "96_28294"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "96_28295"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "411_21882_2052"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "411_21882_2043_96_28289"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "96_28295"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "411_21882_2043"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "411_21882_2043_96_28275"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "411_21882_2043"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "411_21882_2043_96_28282"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "411_21882_2043"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "411_21882_2043_96_28289"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "411_28293_2053_96_28289"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "411_28293_2053"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "411_28293_2053_96_28282"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "411_28293_2053"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "411_28293_2053_96_28275"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "411_28293_2053"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "411_27154_2055"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "3611_output"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "96_28287",
+        "nodeIdInCalledGraph": "405_27154_2017"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "411_27154_2055"
+      }
+    }
+  ],
+  "meta": {
+    "methodName": "org.ozsoft.texasholdem.Client.handStarted(org.ozsoft.texasholdem.Player [Public])",
+    "codeReference": {
+      "fileName": "ozsoft/texasholdem/Client.java",
+      "lineStart": 62,
+      "lineEnd": 62
+    }
+  }
+}

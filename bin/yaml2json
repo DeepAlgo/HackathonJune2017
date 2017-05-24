@@ -1,0 +1,25 @@
+#!/usr/bin/ruby
+
+require 'json'
+require 'yaml'
+require 'optparse'
+
+options = {}
+OptionParser.new do |opts|
+  opts.banner = 'Usage: yaml2json [opts] file.yml '
+  opts.separator 'Generates the json file from a yml schema description.'
+  opts.separator 'Default output file name is file.json.'
+  opts.separator 'Options:'
+  opts.on('-o', '--output FILE', 'Generates the json file into FILE') do |v|
+    options[:output] = v
+  end
+end.parse!
+file = ARGV.first
+ofile = if options[:output]
+          options[:output]
+        else
+          File.join(File.dirname(file), File.basename(file), '.json')
+        end
+
+File.open(ofile, 'w') { |f| f.puts JSON.pretty_generate(YAML.load(ARGF)) }
+puts "#{ofile} is available"

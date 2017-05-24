@@ -1,0 +1,624 @@
+{
+  "nodeList": [
+    {
+      "key": "203_28533",
+      "calledGraphId": null,
+      "text": "if Action IsOfType RaiseAction",
+      "description": [
+        "if Action IsOfType RaiseAction"
+      ],
+      "category": "OfCondition",
+      "topoIndex": 25.0,
+      "forwardDepth": 5.0,
+      "backwardDepth": 5.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      },
+      "isGroup": true
+    },
+    {
+      "key": "203_28534",
+      "calledGraphId": null,
+      "text": "Action IsOfType RaiseAction",
+      "description": [
+        "Action IsOfType RaiseAction"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 23.0,
+      "forwardDepth": 3.0,
+      "backwardDepth": 3.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      }
+    },
+    {
+      "key": "203_28536",
+      "calledGraphId": null,
+      "text": "RaiseAction",
+      "description": [
+        "RaiseAction"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 21.0,
+      "forwardDepth": 1.0,
+      "backwardDepth": 1.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      }
+    },
+    {
+      "key": "203_28537",
+      "calledGraphId": null,
+      "text": "toString()",
+      "description": [
+        "toString()"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 18.0,
+      "forwardDepth": 2.0,
+      "backwardDepth": 3.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      },
+      "group": "203_28533"
+    },
+    {
+      "key": "203_28538",
+      "calledGraphId": null,
+      "text": "toString()",
+      "description": [
+        "toString()"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 16.0,
+      "forwardDepth": 0.0,
+      "backwardDepth": 1.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      },
+      "group": "203_28533",
+      "isGroup": true
+    },
+    {
+      "key": "203_28539",
+      "calledGraphId": null,
+      "text": "if Action IsOfType BetAction",
+      "description": [
+        "if Action IsOfType BetAction"
+      ],
+      "category": "OfCondition",
+      "topoIndex": 15.0,
+      "forwardDepth": 5.0,
+      "backwardDepth": 5.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      },
+      "isGroup": true
+    },
+    {
+      "key": "203_28540",
+      "calledGraphId": null,
+      "text": "Action IsOfType BetAction",
+      "description": [
+        "Action IsOfType BetAction"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 13.0,
+      "forwardDepth": 3.0,
+      "backwardDepth": 3.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      }
+    },
+    {
+      "key": "203_28542",
+      "calledGraphId": null,
+      "text": "BetAction",
+      "description": [
+        "BetAction"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 11.0,
+      "forwardDepth": 1.0,
+      "backwardDepth": 1.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      }
+    },
+    {
+      "key": "203_28543",
+      "calledGraphId": null,
+      "text": "toString()",
+      "description": [
+        "toString()"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 9.0,
+      "forwardDepth": 2.0,
+      "backwardDepth": 3.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      },
+      "group": "203_28539"
+    },
+    {
+      "key": "203_28544",
+      "calledGraphId": null,
+      "text": "toString()",
+      "description": [
+        "toString()"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 7.0,
+      "forwardDepth": 0.0,
+      "backwardDepth": 1.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      },
+      "group": "203_28539",
+      "isGroup": true
+    },
+    {
+      "key": "203_9607",
+      "calledGraphId": null,
+      "text": "name",
+      "description": [
+        "name"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 6.0,
+      "forwardDepth": 3.0,
+      "backwardDepth": 4.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/actions/Action.java",
+        "lineStart": 121,
+        "lineEnd": 121
+      }
+    },
+    {
+      "key": "203_9605",
+      "calledGraphId": null,
+      "text": "name",
+      "description": [
+        "name"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 4.0,
+      "forwardDepth": 1.0,
+      "backwardDepth": 2.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/actions/Action.java",
+        "lineStart": 121,
+        "lineEnd": 121
+      }
+    },
+    {
+      "key": "640_28546_5774",
+      "calledGraphId": null,
+      "text": "Action",
+      "description": [
+        "Action"
+      ],
+      "category": "OfInput",
+      "topoIndex": 3.0,
+      "forwardDepth": 0.0,
+      "backwardDepth": 2.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      }
+    },
+    {
+      "key": "640_28547_5775",
+      "calledGraphId": null,
+      "text": "RaiseAction",
+      "description": [
+        "RaiseAction"
+      ],
+      "category": "OfInput",
+      "topoIndex": 2.0,
+      "forwardDepth": 0.0,
+      "backwardDepth": 0.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      }
+    },
+    {
+      "key": "640_28552_5776",
+      "calledGraphId": null,
+      "text": "BetAction",
+      "description": [
+        "BetAction"
+      ],
+      "category": "OfInput",
+      "topoIndex": 1.0,
+      "forwardDepth": 0.0,
+      "backwardDepth": 0.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      }
+    },
+    {
+      "key": "640_9526_5777",
+      "calledGraphId": null,
+      "text": "name",
+      "description": [
+        "name"
+      ],
+      "category": "OfInput",
+      "topoIndex": 0.0,
+      "forwardDepth": 0.0,
+      "backwardDepth": 1.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/actions/Action.java",
+        "lineStart": 55,
+        "lineEnd": 55
+      }
+    },
+    {
+      "key": "640_28547_5778",
+      "calledGraphId": null,
+      "text": "RaiseAction",
+      "description": [
+        "RaiseAction"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 22.0,
+      "forwardDepth": 2.0,
+      "backwardDepth": 2.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      }
+    },
+    {
+      "key": "640_28534_5779",
+      "calledGraphId": null,
+      "text": "Action IsOfType RaiseAction",
+      "description": [
+        "Action IsOfType RaiseAction"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 24.0,
+      "forwardDepth": 4.0,
+      "backwardDepth": 4.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      }
+    },
+    {
+      "key": "640_28552_5780",
+      "calledGraphId": null,
+      "text": "BetAction",
+      "description": [
+        "BetAction"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 12.0,
+      "forwardDepth": 2.0,
+      "backwardDepth": 2.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      }
+    },
+    {
+      "key": "640_28540_5781",
+      "calledGraphId": null,
+      "text": "Action IsOfType BetAction",
+      "description": [
+        "Action IsOfType BetAction"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 14.0,
+      "forwardDepth": 4.0,
+      "backwardDepth": 4.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      }
+    },
+    {
+      "key": "640_9526_5782",
+      "calledGraphId": null,
+      "text": "name",
+      "description": [
+        "name"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 5.0,
+      "forwardDepth": 2.0,
+      "backwardDepth": 3.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/actions/Action.java",
+        "lineStart": 55,
+        "lineEnd": 55
+      }
+    },
+    {
+      "key": "640_9607_5783",
+      "calledGraphId": null,
+      "text": "toString() or name",
+      "description": [
+        "name OR",
+        "return toString()"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 20.0,
+      "forwardDepth": 4.0,
+      "backwardDepth": 5.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/actions/Action.java",
+        "lineStart": 121,
+        "lineEnd": 121
+      }
+    },
+    {
+      "key": "640_28544_5784",
+      "calledGraphId": null,
+      "text": "toString()",
+      "description": [
+        "toString()"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 8.0,
+      "forwardDepth": 1.0,
+      "backwardDepth": 2.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      },
+      "group": "203_28539"
+    },
+    {
+      "key": "640_28538_5785",
+      "calledGraphId": null,
+      "text": "toString()",
+      "description": [
+        "toString()"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 17.0,
+      "forwardDepth": 1.0,
+      "backwardDepth": 2.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      },
+      "group": "203_28533"
+    },
+    {
+      "key": "640_9607_5783_203_28539",
+      "calledGraphId": null,
+      "text": "toString()",
+      "description": [
+        "toString()"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 10.0,
+      "forwardDepth": 3.0,
+      "backwardDepth": 4.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/actions/Action.java",
+        "lineStart": 121,
+        "lineEnd": 121
+      },
+      "group": "203_28539"
+    },
+    {
+      "key": "640_9607_5783_203_28533",
+      "calledGraphId": null,
+      "text": "toString()",
+      "description": [
+        "toString()"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 19.0,
+      "forwardDepth": 3.0,
+      "backwardDepth": 4.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/actions/Action.java",
+        "lineStart": 121,
+        "lineEnd": 121
+      },
+      "group": "203_28533"
+    }
+  ],
+  "linkList": [
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "640_28534_5779"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "203_28533"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "203_28534"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "640_28534_5779"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "640_28546_5774"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "203_28534"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "640_28547_5778"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "203_28534"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "203_28536"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "640_28547_5778"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "640_28547_5775"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "203_28536"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "203_28537"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "640_9607_5783_203_28533"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "640_28538_5785"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "203_28537"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "203_28538"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "640_28538_5785"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "640_28540_5781"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "203_28539"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "203_28540"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "640_28540_5781"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "640_28546_5774"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "203_28540"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "640_28552_5780"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "203_28540"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "203_28542"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "640_28552_5780"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "640_28552_5776"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "203_28542"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "203_28543"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "640_9607_5783_203_28539"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "640_28544_5784"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "203_28543"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "203_28544"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "640_28544_5784"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "203_9607"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "640_9607_5783"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "640_9526_5782"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "203_9607"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "203_9605"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "640_9526_5782"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "640_9526_5777"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "203_9605"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "640_9607_5783_203_28539"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "640_9607_5783"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "640_9607_5783_203_28533"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "640_9607_5783"
+      }
+    }
+  ],
+  "meta": {
+    "methodName": "org.ozsoft.texasholdem.actions.Action.toString() [Public]",
+    "codeReference": {
+      "fileName": "ozsoft/texasholdem/actions/Action.java",
+      "lineStart": 119,
+      "lineEnd": 122
+    },
+    "title": "How to manage  from action?"
+  }
+}

@@ -1,0 +1,307 @@
+
+.right{ float: right;  }
+.left{ float: left;  }
+.height20 { height: 20%; }
+.height50 { height: 50%; }
+.height100 { height: 100%; }
+.height80 { height: 80%; }
+.top20 { top: 20%; }
+.absolute { position: absolute; }
+
+html, body {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: sans-serif;
+  font-size: small;
+}
+
+#menu {
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 0px;
+}
+
+#buttons {
+  padding: 1px 0px;
+  border-bottom: #9EADB1 1px solid;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  height: 30px;
+  background-color: #F1F4F5;
+}
+
+.fixed-height {
+  max-height: 30px;
+}
+
+#selector {
+  margin: 4px 9px;
+  overflow: hidden;
+  padding: 0px 10px;
+}
+
+#selector > label {
+  float: left;
+  margin-right: 5px;
+  line-height: 22px;
+}
+#selector > div {
+  overflow: hidden;
+  margin: 0px;
+}
+#selector input {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  width: 100%;
+  height: 22px;
+}
+
+#expandDetails {
+  position: fixed;
+  right: 0;
+  padding: 20px;
+  cursor: pointer;
+  z-index: 100;
+}
+
+#globalDiagram {
+  width:100%;
+  border-bottom: #9EADB1 1px solid;
+}
+#overview {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  border-bottom: #9EADB1 1px solid;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+#help {
+  visibility: hidden;
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+  background-color: rgba(0,0,0,0.2);
+  z-index: 10000;
+}
+#help-wrapper {
+  display: inline-block;
+  max-height: 70%;
+  margin: 5%;
+  text-align: left;
+  background-color:#F29400;
+  padding: 2em;
+  overflow: auto;
+  border: #9EADB1 1px solid;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  background-color: #F1F4F5;
+}
+#help-wrapper h3 {
+  margin: 0px;
+}
+
+.multiselect {
+  position: relative;
+  width: 300px;
+  margin: 5px 10px 10px;
+  z-index: 200;
+}
+
+.selectBox { position: relative; }
+.selectBox select {
+    width: 100%;
+    font-weight: bold;
+}
+.overSelect {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.checkboxes {
+    display: none;
+    border: 1px #dadada solid;
+    background-color: white;
+    max-height: 90vh;
+    overflow: auto;
+}
+.checkboxes label {
+  display: block;
+  text-align: right;
+}
+.checkboxes label:hover { background-color: #1e90ff; }
+.checkboxes .special_option {
+  text-align: left;
+  padding-left: 10px;
+  border-top: 1px solid black;
+}
+.checkboxes .option_category {
+  text-align: left;
+  padding-left: 10px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+option.tagged { background-color: orange}
+
+#diagram-container {
+  top: 30px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  position: fixed;
+  width: 100%;
+}
+
+.button { cursor: pointer; }
+.navigationButton {
+  position: relative;
+  top: 30px;
+  z-index: 1;
+}
+.help-button {
+  width: 19px;
+  height: 19px;
+  margin: 6px 10px;
+  cursor: pointer;
+}
+.small-button{
+  width:16px;
+  height:16px;
+  cursor: pointer;
+}
+.big-button{
+  width:19px;
+  height:19px;
+  padding: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+/* on small screens, let the selector be alone on one line */
+@media screen and (max-width: 1200px) {
+  #selector {
+    clear: both;
+    padding: 0px;
+  }
+  #buttons {
+    height: 60px;
+  }
+  #diagram-container {
+    top: 60px;
+  }
+  .navigationButton {
+    top: 60px;
+  }
+}
+
+/* Scroll nicely through the list of entrypoints */
+.ui-autocomplete {
+  max-height: 90%;
+  overflow: auto;
+}
+
+/* Loader */
+#loading {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  width:100px;
+  height:100px;
+  margin:-50px 0 0 -50px;
+  background: url(images/loader-default.gif) center no-repeat;
+  background-size: 50px 50px;
+}
+
+/*
+ * Zoom indicator (in diagrams without zoom,
+ * just a zone in the bottom right corner)
+ */
+#zoom {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 30px;
+  padding: 10px 10px 30px 10px;
+}
+
+#zoom .plus, #zoom .minus {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+  line-height: 20px;
+}
+
+#zoom .minus {
+  cursor: pointer;
+}
+
+#zoom .slider {
+  height: 120px;
+  width: 6px;
+  background-color: #fc4e2c;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  overflow: visible;
+  position: relative;
+}
+
+#zoom .level-indicator {
+  width: 30px;
+  height: 20px;
+  line-height: 20px;
+  border-radius: 10px;
+  position: absolute;
+  margin-left: -12px; /* 30 / 2 - 6 */
+  background-color: #9e9e9e;
+  color: white;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+}
+
+/* Deep Algo embed style fixes */
+/*.deepalgo #entry_points_filters,
+.deepalgo #diagram_filters,
+.deepalgo #selector,
+.deepalgo .help-button {
+  display: none;
+}
+.deepalgo #buttons {
+  height: 0px;
+  background-color: transparent;
+  border-bottom: none;
+  box-shadow: none;
+}
+.deepalgo #diagram-container {
+  top: 0px;
+}
+.deepalgo #buttons > .right {
+  float: left;
+}
+.deepalgo .multiselect {
+  margin: 20px 0px 0px 30px;
+}
+.deepalgo .navigationButton {
+  left: 24px;
+  top: 9px;
+}
+
+.deepalgo #loading {
+  background-image: url(images/loader-deepalgo.gif);
+  background-size: 24px 32px;
+}*/

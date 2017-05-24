@@ -1,0 +1,47 @@
+#!/usr/bin/ruby
+
+require 'fileutils'
+require 'optparse'
+require 'digest/sha1'
+require 'pathname'
+
+options = {}
+OptionParser.new do |opts|
+  opts.banner = 'Usage: da-dfg [opts] sample_name'
+  opts.separator 'This is for Deep Algo internal use only'
+  opts.separator ''
+  opts.separator 'Generates the dfg Deep Algo diagram out of a sample `src` folder into the `dfg` folder.'
+  opts.separator 'Options:'
+  opts.on('-v', '--verbose', 'Verbose mode') do |v|
+    options[:verb] = v
+  end
+end.parse!
+
+sample = ARGV.first
+
+root = Pathname.new(__FILE__) + '../..'
+src = root + 'samples' + sample + 'src'
+unless src.directory?
+  puts "ERROR :  Missing src directory #{src}"
+  puts
+  system "#{File.dirname(__FILE__)}/da-dfg --help"
+  exit 0
+end
+glob = "#{src}/**/*"
+dbname = Digest::SHA1.hexdigest glob
+verb = nil
+verb = 'verb=true debug_diagram=true' if options[:verb]
+system("smile run prod=false dbname=#{dbname} source=\"#{glob}\" #{verb}")
+
+jsons = File.join(ENV['HOME'], 'deepalgo', dbname, 'CodeCaseIOCA', 'data', '*.json')
+FileUtils.rm_rf jsons
+cmd = "ccs-deepalgo run dbname=#{dbname} withsave=true try=true #{verb}"
+puts cmd
+system cmd
+
+dest = root + 'samples' + sample + 'dfg'
+FileUtils.mkdir_p(dest)
+system("cp -fv #{jsons} #{dest}")
+
+puts
+puts 'DONE'

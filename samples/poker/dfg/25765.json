@@ -1,0 +1,256 @@
+{
+  "nodeList": [
+    {
+      "key": "172_25763",
+      "calledGraphId": null,
+      "text": "contains player",
+      "description": [
+        "contains player"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 8.0,
+      "forwardDepth": 5.0,
+      "backwardDepth": 5.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Pot.java",
+        "lineStart": 89,
+        "lineEnd": 89
+      }
+    },
+    {
+      "key": "172_25757",
+      "calledGraphId": null,
+      "text": "contributors",
+      "description": [
+        "contributors"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 4.0,
+      "forwardDepth": 1.0,
+      "backwardDepth": 1.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Pot.java",
+        "lineStart": 89,
+        "lineEnd": 89
+      }
+    },
+    {
+      "key": "172_25760",
+      "calledGraphId": null,
+      "text": "contains player",
+      "description": [
+        "contains player"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 6.0,
+      "forwardDepth": 3.0,
+      "backwardDepth": 3.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Pot.java",
+        "lineStart": 89,
+        "lineEnd": 89
+      }
+    },
+    {
+      "key": "172_25758",
+      "calledGraphId": null,
+      "text": "player",
+      "description": [
+        "player"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 2.0,
+      "forwardDepth": 1.0,
+      "backwardDepth": 1.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Pot.java",
+        "lineStart": 89,
+        "lineEnd": 89
+      }
+    },
+    {
+      "key": "468_25680_2461",
+      "calledGraphId": null,
+      "text": "contributors",
+      "description": [
+        "contributors"
+      ],
+      "category": "OfInput",
+      "topoIndex": 1.0,
+      "forwardDepth": 0.0,
+      "backwardDepth": 0.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Pot.java",
+        "lineStart": 39,
+        "lineEnd": 39
+      }
+    },
+    {
+      "key": "468_25754_2462",
+      "calledGraphId": null,
+      "text": "player",
+      "description": [
+        "player"
+      ],
+      "category": "OfInput",
+      "topoIndex": 0.0,
+      "forwardDepth": 0.0,
+      "backwardDepth": 0.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Pot.java",
+        "lineStart": 88,
+        "lineEnd": 88
+      }
+    },
+    {
+      "key": "468_25680_2463",
+      "calledGraphId": null,
+      "text": "contributors",
+      "description": [
+        "contributors"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 5.0,
+      "forwardDepth": 2.0,
+      "backwardDepth": 2.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Pot.java",
+        "lineStart": 39,
+        "lineEnd": 39
+      }
+    },
+    {
+      "key": "468_25754_2464",
+      "calledGraphId": null,
+      "text": "player",
+      "description": [
+        "player"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 3.0,
+      "forwardDepth": 2.0,
+      "backwardDepth": 2.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Pot.java",
+        "lineStart": 88,
+        "lineEnd": 88
+      }
+    },
+    {
+      "key": "468_25760_2465",
+      "calledGraphId": null,
+      "text": "contains player",
+      "description": [
+        "contains player"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 7.0,
+      "forwardDepth": 4.0,
+      "backwardDepth": 4.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Pot.java",
+        "lineStart": 89,
+        "lineEnd": 89
+      }
+    },
+    {
+      "key": "468_25763_2466",
+      "calledGraphId": null,
+      "text": "contains player",
+      "description": [
+        "contains player"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 9.0,
+      "forwardDepth": 6.0,
+      "backwardDepth": 6.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Pot.java",
+        "lineStart": 89,
+        "lineEnd": 89
+      }
+    }
+  ],
+  "linkList": [
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "172_25763"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "468_25763_2466"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "468_25760_2465"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "172_25763"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "172_25757"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "468_25680_2463"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "468_25680_2461"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "172_25757"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "172_25760"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "468_25760_2465"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "468_25680_2463"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "172_25760"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "468_25754_2464"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "172_25760"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "172_25758"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "468_25754_2464"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "468_25754_2462"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "172_25758"
+      }
+    }
+  ],
+  "meta": {
+    "methodName": "org.ozsoft.texasholdem.Pot.hasContributer(org.ozsoft.texasholdem.Player [Public]) [Public]",
+    "codeReference": {
+      "fileName": "ozsoft/texasholdem/Pot.java",
+      "lineStart": 88,
+      "lineEnd": 90
+    }
+  }
+}
