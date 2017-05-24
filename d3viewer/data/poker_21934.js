@@ -1,0 +1,1663 @@
+      var data = {
+  "nodeList": [
+    {
+      "key": "101_28482",
+      "calledGraphId": null,
+      "text": "if Client IsOfType DummyBot",
+      "description": [
+        "if Client IsOfType DummyBot"
+      ],
+      "category": "OfCondition",
+      "topoIndex": 64.0,
+      "forwardDepth": 5.0,
+      "backwardDepth": 8.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      },
+      "isGroup": true
+    },
+    {
+      "key": "101_28483",
+      "calledGraphId": null,
+      "text": "Client IsOfType DummyBot",
+      "description": [
+        "Client IsOfType DummyBot"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 62.0,
+      "forwardDepth": 3.0,
+      "backwardDepth": 6.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      }
+    },
+    {
+      "key": "101_28485",
+      "calledGraphId": null,
+      "text": "DummyBot",
+      "description": [
+        "DummyBot"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 60.0,
+      "forwardDepth": 1.0,
+      "backwardDepth": 4.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      }
+    },
+    {
+      "key": "101_28486",
+      "calledGraphId": null,
+      "text": "return act() with minBet, currentBet, and allowedActions",
+      "description": [
+        "return act() with minBet, currentBet, and allowedActions"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 57.0,
+      "forwardDepth": 6.0,
+      "backwardDepth": 6.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      },
+      "group": "101_28482"
+    },
+    {
+      "key": "101_28487",
+      "calledGraphId": null,
+      "text": "How to manage CHECK CALL from dummy bot with act?",
+      "description": [
+        "act() with minBet, currentBet, and allowedActions"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 55.0,
+      "forwardDepth": 4.0,
+      "backwardDepth": 4.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      },
+      "group": "101_28482",
+      "isGroup": true
+    },
+    {
+      "key": "101_28488",
+      "calledGraphId": null,
+      "text": "minBet",
+      "description": [
+        "minBet"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 53.0,
+      "forwardDepth": 2.0,
+      "backwardDepth": 2.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      },
+      "group": "101_28482"
+    },
+    {
+      "key": "101_28489",
+      "calledGraphId": null,
+      "text": "currentBet",
+      "description": [
+        "currentBet"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 51.0,
+      "forwardDepth": 2.0,
+      "backwardDepth": 2.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      },
+      "group": "101_28482"
+    },
+    {
+      "key": "101_28490",
+      "calledGraphId": null,
+      "text": "allowedActions",
+      "description": [
+        "allowedActions"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 49.0,
+      "forwardDepth": 2.0,
+      "backwardDepth": 2.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      },
+      "group": "101_28482"
+    },
+    {
+      "key": "101_28491",
+      "calledGraphId": null,
+      "text": "if Client IsOfType BasicBot",
+      "description": [
+        "if Client IsOfType BasicBot"
+      ],
+      "category": "OfCondition",
+      "topoIndex": 48.0,
+      "forwardDepth": 5.0,
+      "backwardDepth": 8.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      },
+      "isGroup": true
+    },
+    {
+      "key": "101_28492",
+      "calledGraphId": null,
+      "text": "Client IsOfType BasicBot",
+      "description": [
+        "Client IsOfType BasicBot"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 46.0,
+      "forwardDepth": 3.0,
+      "backwardDepth": 6.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      }
+    },
+    {
+      "key": "101_28494",
+      "calledGraphId": null,
+      "text": "BasicBot",
+      "description": [
+        "BasicBot"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 44.0,
+      "forwardDepth": 1.0,
+      "backwardDepth": 4.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      }
+    },
+    {
+      "key": "101_28495",
+      "calledGraphId": null,
+      "text": "return act() with minBet, currentBet, and allowedActions",
+      "description": [
+        "return act() with minBet, currentBet, and allowedActions"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 42.0,
+      "forwardDepth": 6.0,
+      "backwardDepth": 6.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      },
+      "group": "101_28491"
+    },
+    {
+      "key": "101_28496",
+      "calledGraphId": null,
+      "text": "act() with minBet, currentBet, and allowedActions",
+      "description": [
+        "act() with minBet, currentBet, and allowedActions"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 40.0,
+      "forwardDepth": 4.0,
+      "backwardDepth": 4.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      },
+      "group": "101_28491",
+      "isGroup": true
+    },
+    {
+      "key": "101_28497",
+      "calledGraphId": null,
+      "text": "minBet",
+      "description": [
+        "minBet"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 38.0,
+      "forwardDepth": 2.0,
+      "backwardDepth": 2.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      },
+      "group": "101_28491"
+    },
+    {
+      "key": "101_28498",
+      "calledGraphId": null,
+      "text": "currentBet",
+      "description": [
+        "currentBet"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 36.0,
+      "forwardDepth": 2.0,
+      "backwardDepth": 2.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      },
+      "group": "101_28491"
+    },
+    {
+      "key": "101_28499",
+      "calledGraphId": null,
+      "text": "allowedActions",
+      "description": [
+        "allowedActions"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 34.0,
+      "forwardDepth": 2.0,
+      "backwardDepth": 2.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      },
+      "group": "101_28491"
+    },
+    {
+      "key": "101_28500",
+      "calledGraphId": null,
+      "text": "if Client IsOfType Main",
+      "description": [
+        "if Client IsOfType Main"
+      ],
+      "category": "OfCondition",
+      "topoIndex": 33.0,
+      "forwardDepth": 5.0,
+      "backwardDepth": 8.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      },
+      "isGroup": true
+    },
+    {
+      "key": "101_28501",
+      "calledGraphId": null,
+      "text": "Client IsOfType Main",
+      "description": [
+        "Client IsOfType Main"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 31.0,
+      "forwardDepth": 3.0,
+      "backwardDepth": 6.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      }
+    },
+    {
+      "key": "101_28503",
+      "calledGraphId": null,
+      "text": "Main",
+      "description": [
+        "Main"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 29.0,
+      "forwardDepth": 1.0,
+      "backwardDepth": 4.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      }
+    },
+    {
+      "key": "101_28504",
+      "calledGraphId": null,
+      "text": "return act() with minBet, currentBet, and allowedActions",
+      "description": [
+        "return act() with minBet, currentBet, and allowedActions"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 27.0,
+      "forwardDepth": 6.0,
+      "backwardDepth": 6.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      },
+      "group": "101_28500"
+    },
+    {
+      "key": "101_28505",
+      "calledGraphId": null,
+      "text": "act() with minBet, currentBet, and allowedActions",
+      "description": [
+        "act() with minBet, currentBet, and allowedActions"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 22.0,
+      "forwardDepth": 4.0,
+      "backwardDepth": 4.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      },
+      "group": "101_28500",
+      "isGroup": true
+    },
+    {
+      "key": "101_28506",
+      "calledGraphId": null,
+      "text": "minBet",
+      "description": [
+        "minBet"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 20.0,
+      "forwardDepth": 2.0,
+      "backwardDepth": 2.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      },
+      "group": "101_28500"
+    },
+    {
+      "key": "101_28507",
+      "calledGraphId": null,
+      "text": "currentBet",
+      "description": [
+        "currentBet"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 18.0,
+      "forwardDepth": 2.0,
+      "backwardDepth": 2.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      },
+      "group": "101_28500"
+    },
+    {
+      "key": "101_28508",
+      "calledGraphId": null,
+      "text": "allowedActions",
+      "description": [
+        "allowedActions"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 16.0,
+      "forwardDepth": 2.0,
+      "backwardDepth": 2.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      },
+      "group": "101_28500"
+    },
+    {
+      "key": "518_28510_3313",
+      "calledGraphId": null,
+      "text": "Client",
+      "description": [
+        "Client"
+      ],
+      "category": "OfInput",
+      "topoIndex": 3.0,
+      "forwardDepth": 0.0,
+      "backwardDepth": 5.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      }
+    },
+    {
+      "key": "518_28511_3314",
+      "calledGraphId": null,
+      "text": "DummyBot",
+      "description": [
+        "DummyBot"
+      ],
+      "category": "OfInput",
+      "topoIndex": 2.0,
+      "forwardDepth": 0.0,
+      "backwardDepth": 3.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      }
+    },
+    {
+      "key": "518_21920_3315",
+      "calledGraphId": null,
+      "text": "minBet",
+      "description": [
+        "minBet"
+      ],
+      "category": "OfInput",
+      "topoIndex": 12.0,
+      "forwardDepth": 0.0,
+      "backwardDepth": 0.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Client.java",
+        "lineStart": 112,
+        "lineEnd": 112
+      }
+    },
+    {
+      "key": "518_21921_3316",
+      "calledGraphId": null,
+      "text": "currentBet",
+      "description": [
+        "currentBet"
+      ],
+      "category": "OfInput",
+      "topoIndex": 8.0,
+      "forwardDepth": 0.0,
+      "backwardDepth": 0.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Client.java",
+        "lineStart": 112,
+        "lineEnd": 112
+      }
+    },
+    {
+      "key": "518_21922_3317",
+      "calledGraphId": null,
+      "text": "allowedActions",
+      "description": [
+        "allowedActions"
+      ],
+      "category": "OfInput",
+      "topoIndex": 4.0,
+      "forwardDepth": 0.0,
+      "backwardDepth": 0.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Client.java",
+        "lineStart": 112,
+        "lineEnd": 112
+      }
+    },
+    {
+      "key": "518_28519_3318",
+      "calledGraphId": null,
+      "text": "BasicBot",
+      "description": [
+        "BasicBot"
+      ],
+      "category": "OfInput",
+      "topoIndex": 1.0,
+      "forwardDepth": 0.0,
+      "backwardDepth": 3.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      }
+    },
+    {
+      "key": "518_28527_3319",
+      "calledGraphId": null,
+      "text": "Main",
+      "description": [
+        "Main"
+      ],
+      "category": "OfInput",
+      "topoIndex": 0.0,
+      "forwardDepth": 0.0,
+      "backwardDepth": 3.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      }
+    },
+    {
+      "key": "518_28511_3320",
+      "calledGraphId": null,
+      "text": "DummyBot",
+      "description": [
+        "DummyBot"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 61.0,
+      "forwardDepth": 2.0,
+      "backwardDepth": 5.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      }
+    },
+    {
+      "key": "518_28483_3321",
+      "calledGraphId": null,
+      "text": "Client IsOfType DummyBot",
+      "description": [
+        "Client IsOfType DummyBot"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 63.0,
+      "forwardDepth": 4.0,
+      "backwardDepth": 7.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      }
+    },
+    {
+      "key": "518_28519_3322",
+      "calledGraphId": null,
+      "text": "BasicBot",
+      "description": [
+        "BasicBot"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 45.0,
+      "forwardDepth": 2.0,
+      "backwardDepth": 5.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      }
+    },
+    {
+      "key": "518_28492_3323",
+      "calledGraphId": null,
+      "text": "Client IsOfType BasicBot",
+      "description": [
+        "Client IsOfType BasicBot"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 47.0,
+      "forwardDepth": 4.0,
+      "backwardDepth": 7.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      }
+    },
+    {
+      "key": "518_28527_3324",
+      "calledGraphId": null,
+      "text": "Main",
+      "description": [
+        "Main"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 30.0,
+      "forwardDepth": 2.0,
+      "backwardDepth": 5.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      }
+    },
+    {
+      "key": "518_28501_3325",
+      "calledGraphId": null,
+      "text": "Client IsOfType Main",
+      "description": [
+        "Client IsOfType Main"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 32.0,
+      "forwardDepth": 4.0,
+      "backwardDepth": 7.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      }
+    },
+    {
+      "key": "518_21920_3326",
+      "calledGraphId": null,
+      "text": "minBet",
+      "description": [
+        "minBet"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 21.0,
+      "forwardDepth": 3.0,
+      "backwardDepth": 3.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Client.java",
+        "lineStart": 112,
+        "lineEnd": 112
+      },
+      "group": "101_28500"
+    },
+    {
+      "key": "518_21921_3327",
+      "calledGraphId": null,
+      "text": "currentBet",
+      "description": [
+        "currentBet"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 19.0,
+      "forwardDepth": 3.0,
+      "backwardDepth": 3.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Client.java",
+        "lineStart": 112,
+        "lineEnd": 112
+      },
+      "group": "101_28500"
+    },
+    {
+      "key": "518_21922_3328",
+      "calledGraphId": null,
+      "text": "allowedActions",
+      "description": [
+        "allowedActions"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 17.0,
+      "forwardDepth": 3.0,
+      "backwardDepth": 3.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Client.java",
+        "lineStart": 112,
+        "lineEnd": 112
+      },
+      "group": "101_28500"
+    },
+    {
+      "key": "518_12247_3329",
+      "calledGraphId": null,
+      "text": "defaultAction",
+      "description": [
+        "defaultAction"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 25.0,
+      "forwardDepth": 5.0,
+      "backwardDepth": 7.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/gui/AmountPanel.java",
+        "lineStart": 67,
+        "lineEnd": 67
+      },
+      "group": "101_28500"
+    },
+    {
+      "key": "518_28505_3330",
+      "calledGraphId": null,
+      "text": "act() with minBet, currentBet, and allowedActions",
+      "description": [
+        "act() with minBet, currentBet, and allowedActions"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 24.0,
+      "forwardDepth": 5.0,
+      "backwardDepth": 5.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      },
+      "group": "101_28500"
+    },
+    {
+      "key": "518_15790_3331",
+      "calledGraphId": null,
+      "text": "selectedAction",
+      "description": [
+        "selectedAction"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 23.0,
+      "forwardDepth": 5.0,
+      "backwardDepth": 7.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/gui/ControlPanel.java",
+        "lineStart": 72,
+        "lineEnd": 72
+      },
+      "group": "101_28500"
+    },
+    {
+      "key": "518_28504_3332",
+      "calledGraphId": null,
+      "text": "return act() with minBet, currentBet, and allowedActions",
+      "description": [
+        "return act() with minBet, currentBet, and allowedActions"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 59.0,
+      "forwardDepth": 8.0,
+      "backwardDepth": 8.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      }
+    },
+    {
+      "key": "518_21920_3333",
+      "calledGraphId": null,
+      "text": "minBet",
+      "description": [
+        "minBet"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 39.0,
+      "forwardDepth": 3.0,
+      "backwardDepth": 3.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Client.java",
+        "lineStart": 112,
+        "lineEnd": 112
+      },
+      "group": "101_28491"
+    },
+    {
+      "key": "518_21921_3334",
+      "calledGraphId": null,
+      "text": "currentBet",
+      "description": [
+        "currentBet"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 37.0,
+      "forwardDepth": 3.0,
+      "backwardDepth": 3.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Client.java",
+        "lineStart": 112,
+        "lineEnd": 112
+      },
+      "group": "101_28491"
+    },
+    {
+      "key": "518_21922_3335",
+      "calledGraphId": null,
+      "text": "allowedActions",
+      "description": [
+        "allowedActions"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 35.0,
+      "forwardDepth": 3.0,
+      "backwardDepth": 3.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Client.java",
+        "lineStart": 112,
+        "lineEnd": 112
+      },
+      "group": "101_28491"
+    },
+    {
+      "key": "518_28496_3336",
+      "calledGraphId": null,
+      "text": "act() with minBet, currentBet, and allowedActions",
+      "description": [
+        "act() with minBet, currentBet, and allowedActions"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 41.0,
+      "forwardDepth": 5.0,
+      "backwardDepth": 5.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      },
+      "group": "101_28491"
+    },
+    {
+      "key": "518_21920_3337",
+      "calledGraphId": null,
+      "text": "minBet",
+      "description": [
+        "minBet"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 54.0,
+      "forwardDepth": 3.0,
+      "backwardDepth": 3.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Client.java",
+        "lineStart": 112,
+        "lineEnd": 112
+      },
+      "group": "101_28482"
+    },
+    {
+      "key": "518_21921_3338",
+      "calledGraphId": null,
+      "text": "currentBet",
+      "description": [
+        "currentBet"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 52.0,
+      "forwardDepth": 3.0,
+      "backwardDepth": 3.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Client.java",
+        "lineStart": 112,
+        "lineEnd": 112
+      },
+      "group": "101_28482"
+    },
+    {
+      "key": "518_21922_3339",
+      "calledGraphId": null,
+      "text": "allowedActions",
+      "description": [
+        "allowedActions"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 50.0,
+      "forwardDepth": 3.0,
+      "backwardDepth": 3.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Client.java",
+        "lineStart": 112,
+        "lineEnd": 112
+      },
+      "group": "101_28482"
+    },
+    {
+      "key": "518_28487_3340",
+      "calledGraphId": null,
+      "text": "act() with minBet, currentBet, and allowedActions",
+      "description": [
+        "act() with minBet, currentBet, and allowedActions"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 56.0,
+      "forwardDepth": 5.0,
+      "backwardDepth": 5.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      },
+      "group": "101_28482"
+    },
+    {
+      "key": "518_21920_3315_101_28482",
+      "calledGraphId": null,
+      "text": "minBet",
+      "description": [
+        "minBet"
+      ],
+      "category": "OfInput",
+      "topoIndex": 15.0,
+      "forwardDepth": 1.0,
+      "backwardDepth": 1.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Client.java",
+        "lineStart": 112,
+        "lineEnd": 112
+      },
+      "group": "101_28482"
+    },
+    {
+      "key": "518_21920_3315_101_28491",
+      "calledGraphId": null,
+      "text": "minBet",
+      "description": [
+        "minBet"
+      ],
+      "category": "OfInput",
+      "topoIndex": 14.0,
+      "forwardDepth": 1.0,
+      "backwardDepth": 1.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Client.java",
+        "lineStart": 112,
+        "lineEnd": 112
+      },
+      "group": "101_28491"
+    },
+    {
+      "key": "518_21920_3315_101_28500",
+      "calledGraphId": null,
+      "text": "minBet",
+      "description": [
+        "minBet"
+      ],
+      "category": "OfInput",
+      "topoIndex": 13.0,
+      "forwardDepth": 1.0,
+      "backwardDepth": 1.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Client.java",
+        "lineStart": 112,
+        "lineEnd": 112
+      },
+      "group": "101_28500"
+    },
+    {
+      "key": "518_21921_3316_101_28500",
+      "calledGraphId": null,
+      "text": "currentBet",
+      "description": [
+        "currentBet"
+      ],
+      "category": "OfInput",
+      "topoIndex": 11.0,
+      "forwardDepth": 1.0,
+      "backwardDepth": 1.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Client.java",
+        "lineStart": 112,
+        "lineEnd": 112
+      },
+      "group": "101_28500"
+    },
+    {
+      "key": "518_21922_3317_101_28500",
+      "calledGraphId": null,
+      "text": "allowedActions",
+      "description": [
+        "allowedActions"
+      ],
+      "category": "OfInput",
+      "topoIndex": 7.0,
+      "forwardDepth": 1.0,
+      "backwardDepth": 1.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Client.java",
+        "lineStart": 112,
+        "lineEnd": 112
+      },
+      "group": "101_28500"
+    },
+    {
+      "key": "518_28504_3332_101_28500",
+      "calledGraphId": null,
+      "text": "return act() with minBet, currentBet, and allowedActions",
+      "description": [
+        "return act() with minBet, currentBet, and allowedActions"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 28.0,
+      "forwardDepth": 7.0,
+      "backwardDepth": 7.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      },
+      "group": "101_28500"
+    },
+    {
+      "key": "518_21921_3316_101_28491",
+      "calledGraphId": null,
+      "text": "currentBet",
+      "description": [
+        "currentBet"
+      ],
+      "category": "OfInput",
+      "topoIndex": 10.0,
+      "forwardDepth": 1.0,
+      "backwardDepth": 1.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Client.java",
+        "lineStart": 112,
+        "lineEnd": 112
+      },
+      "group": "101_28491"
+    },
+    {
+      "key": "518_21922_3317_101_28491",
+      "calledGraphId": null,
+      "text": "allowedActions",
+      "description": [
+        "allowedActions"
+      ],
+      "category": "OfInput",
+      "topoIndex": 6.0,
+      "forwardDepth": 1.0,
+      "backwardDepth": 1.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Client.java",
+        "lineStart": 112,
+        "lineEnd": 112
+      },
+      "group": "101_28491"
+    },
+    {
+      "key": "518_28504_3332_101_28491",
+      "calledGraphId": null,
+      "text": "return act() with minBet, currentBet, and allowedActions",
+      "description": [
+        "return act() with minBet, currentBet, and allowedActions"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 43.0,
+      "forwardDepth": 7.0,
+      "backwardDepth": 7.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      },
+      "group": "101_28491"
+    },
+    {
+      "key": "518_21921_3316_101_28482",
+      "calledGraphId": null,
+      "text": "currentBet",
+      "description": [
+        "currentBet"
+      ],
+      "category": "OfInput",
+      "topoIndex": 9.0,
+      "forwardDepth": 1.0,
+      "backwardDepth": 1.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Client.java",
+        "lineStart": 112,
+        "lineEnd": 112
+      },
+      "group": "101_28482"
+    },
+    {
+      "key": "518_21922_3317_101_28482",
+      "calledGraphId": null,
+      "text": "allowedActions",
+      "description": [
+        "allowedActions"
+      ],
+      "category": "OfInput",
+      "topoIndex": 5.0,
+      "forwardDepth": 1.0,
+      "backwardDepth": 1.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Client.java",
+        "lineStart": 112,
+        "lineEnd": 112
+      },
+      "group": "101_28482"
+    },
+    {
+      "key": "518_28504_3332_101_28482",
+      "calledGraphId": null,
+      "text": "return act() with minBet, currentBet, and allowedActions",
+      "description": [
+        "return act() with minBet, currentBet, and allowedActions"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 58.0,
+      "forwardDepth": 7.0,
+      "backwardDepth": 7.0,
+      "codeReference": {
+        "fileName": "UNKNOWN"
+      },
+      "group": "101_28482"
+    },
+    {
+      "key": "9610_output",
+      "calledGraphId": null,
+      "text": "selectedAction",
+      "description": [
+        "selectedAction"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 26.0,
+      "forwardDepth": 6.0,
+      "backwardDepth": 8.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/gui/ControlPanel.java",
+        "lineStart": 72,
+        "lineEnd": 72
+      }
+    }
+  ],
+  "linkList": [
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "518_28483_3321"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "101_28482"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "101_28483"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "518_28483_3321"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "518_28510_3313"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "101_28483"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "518_28511_3320"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "101_28483"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "101_28485"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "518_28511_3320"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "518_28511_3314"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "101_28485"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "101_28486"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "518_28504_3332_101_28482"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "518_28487_3340"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "101_28486"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "101_28487"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "518_28487_3340"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "518_21920_3337"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "101_28487"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "518_21921_3338"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "101_28487"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "518_21922_3339"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "101_28487"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "101_28488"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "518_21920_3337"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "518_21920_3315_101_28482"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "101_28488"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "101_28489"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "518_21921_3338"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "518_21921_3316_101_28482"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "101_28489"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "101_28490"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "518_21922_3339"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "518_21922_3317_101_28482"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "101_28490"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "518_28492_3323"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "101_28491"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "101_28492"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "518_28492_3323"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "518_28510_3313"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "101_28492"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "518_28519_3322"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "101_28492"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "101_28494"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "518_28519_3322"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "518_28519_3318"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "101_28494"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "101_28495"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "518_28504_3332_101_28491"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "518_28496_3336"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "101_28495"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "101_28496"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "518_28496_3336"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "518_21920_3333"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "101_28496"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "518_21921_3334"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "101_28496"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "518_21922_3335"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "101_28496"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "101_28497"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "518_21920_3333"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "518_21920_3315_101_28491"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "101_28497"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "101_28498"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "518_21921_3334"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "518_21921_3316_101_28491"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "101_28498"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "101_28499"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "518_21922_3335"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "518_21922_3317_101_28491"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "101_28499"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "518_28501_3325"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "101_28500"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "101_28501"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "518_28501_3325"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "518_28510_3313"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "101_28501"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "518_28527_3324"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "101_28501"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "101_28503"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "518_28527_3324"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "518_28527_3319"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "101_28503"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "101_28504"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "518_28504_3332_101_28500"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "518_28505_3330"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "101_28504"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "101_28505"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "518_12247_3329"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "101_28505"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "518_28505_3330"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "101_28505"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "518_15790_3331"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "518_21920_3326"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "101_28505"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "518_21921_3327"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "101_28505"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "518_21922_3328"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "101_28505"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "101_28506"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "518_21920_3326"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "518_21920_3315_101_28500"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "101_28506"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "101_28507"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "518_21921_3327"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "518_21921_3316_101_28500"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "101_28507"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "101_28508"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "518_21922_3328"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "518_21922_3317_101_28500"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "101_28508"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "518_21920_3315"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "518_21920_3315_101_28482"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "518_21920_3315"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "518_21920_3315_101_28491"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "518_21920_3315"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "518_21920_3315_101_28500"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "518_21921_3316"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "518_21921_3316_101_28500"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "518_21921_3316"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "518_21921_3316_101_28491"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "518_21921_3316"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "518_21921_3316_101_28482"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "518_21922_3317"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "518_21922_3317_101_28500"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "518_21922_3317"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "518_21922_3317_101_28491"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "518_21922_3317"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "518_21922_3317_101_28482"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "518_12247_3329"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "9610_output"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "518_15790_3331"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "9610_output"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "518_28504_3332_101_28500"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "518_28504_3332"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "518_28504_3332_101_28491"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "518_28504_3332"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "518_28504_3332_101_28482"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "518_28504_3332"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "101_28505",
+        "nodeIdInCalledGraph": "516_12247_3309"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "518_12247_3329"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "101_28505",
+        "nodeIdInCalledGraph": "516_15790_3310"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "518_15790_3331"
+      }
+    }
+  ],
+  "meta": {
+    "methodName": "org.ozsoft.texasholdem.Client.act(int, int, java.util.Set<org.ozsoft.texasholdem.actions.Action [Public,Abstract]>)",
+    "codeReference": {
+      "fileName": "ozsoft/texasholdem/Client.java",
+      "lineStart": 112,
+      "lineEnd": 112
+    },
+    "title": "How to manage act min bet current allow action select from client?"
+  }
+};

@@ -167,9 +167,11 @@ Yielding the following **DFG** :
   <img src="images/main_sample_dfg.png" alt="DFG of the “main” sample" />
 </p>
 
-You can [see this in your browser][diagram].
+You can [see this in your browser using GoJS][diagram] or
+[another sample viewer using D3][diagram_d3]
 
 [diagram]: https://deepalgo.github.io/HackathonJune2017/dfgviewer/index.html?main_5
+[diagram_d3]: https://deepalgo.github.io/HackathonJune2017/d3viewer/index.html?main_5
 
 ### More information
 

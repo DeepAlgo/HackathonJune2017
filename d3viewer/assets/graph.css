@@ -1,0 +1,13 @@
+circle {
+    fill: #D0D0D0;
+}
+
+line {
+    stroke: #D0D0D0;
+    stroke-width: 6px;
+    marker-end: url(#Triangle);
+}
+
+marker {
+    fill: #D0D0D0;
+}

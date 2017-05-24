@@ -1,0 +1,1060 @@
+      var data = {
+  "nodeList": [
+    {
+      "key": "174_25795",
+      "calledGraphId": null,
+      "text": "pot is set to Create a Pot with bet - partialBet",
+      "description": [
+        "pot is set to Create a Pot with bet - partialBet"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 33.0,
+      "forwardDepth": 7.0,
+      "backwardDepth": 7.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Pot.java",
+        "lineStart": 113,
+        "lineEnd": 113
+      }
+    },
+    {
+      "key": "174_25786",
+      "calledGraphId": null,
+      "text": "Pot",
+      "description": [
+        "Pot"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 29.0,
+      "forwardDepth": 1.0,
+      "backwardDepth": 3.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Pot.java",
+        "lineStart": 113,
+        "lineEnd": 113
+      }
+    },
+    {
+      "key": "174_25792",
+      "calledGraphId": null,
+      "text": "How to create pot?",
+      "description": [
+        "Create a Pot with bet - partialBet"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 31.0,
+      "forwardDepth": 5.0,
+      "backwardDepth": 5.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Pot.java",
+        "lineStart": 113,
+        "lineEnd": 113
+      },
+      "isGroup": true
+    },
+    {
+      "key": "174_25790",
+      "calledGraphId": null,
+      "text": "bet - partialBet",
+      "description": [
+        "bet - partialBet"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 27.0,
+      "forwardDepth": 3.0,
+      "backwardDepth": 3.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Pot.java",
+        "lineStart": 113,
+        "lineEnd": 113
+      }
+    },
+    {
+      "key": "174_25787",
+      "calledGraphId": null,
+      "text": "bet",
+      "description": [
+        "bet"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 25.0,
+      "forwardDepth": 1.0,
+      "backwardDepth": 1.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Pot.java",
+        "lineStart": 113,
+        "lineEnd": 113
+      }
+    },
+    {
+      "key": "174_25788",
+      "calledGraphId": null,
+      "text": "partialBet",
+      "description": [
+        "partialBet"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 19.0,
+      "forwardDepth": 1.0,
+      "backwardDepth": 1.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Pot.java",
+        "lineStart": 113,
+        "lineEnd": 113
+      }
+    },
+    {
+      "key": "174_25810",
+      "calledGraphId": null,
+      "text": "repeat for each contributer in contributors",
+      "description": [
+        "repeat for each contributer in contributors"
+      ],
+      "category": "OfLoop",
+      "topoIndex": 18.0,
+      "forwardDepth": 3.0,
+      "backwardDepth": 12.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Pot.java",
+        "lineStart": 114,
+        "lineEnd": 116
+      },
+      "isGroup": true
+    },
+    {
+      "key": "174_25803",
+      "calledGraphId": null,
+      "text": "contributors",
+      "description": [
+        "contributors"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 11.0,
+      "forwardDepth": 1.0,
+      "backwardDepth": 8.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Pot.java",
+        "lineStart": 114,
+        "lineEnd": 114
+      }
+    },
+    {
+      "key": "174_25805",
+      "calledGraphId": null,
+      "text": "pot is set to Create a Pot with bet - partialBet",
+      "description": [
+        "pot is set to Create a Pot with bet - partialBet"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 36.0,
+      "forwardDepth": 10.0,
+      "backwardDepth": 11.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Pot.java",
+        "lineStart": 115,
+        "lineEnd": 115
+      },
+      "group": "174_25810"
+    },
+    {
+      "key": "174_25808",
+      "calledGraphId": null,
+      "text": "addContributer contributer",
+      "description": [
+        "addContributer contributer"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 14.0,
+      "forwardDepth": 4.0,
+      "backwardDepth": 12.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Pot.java",
+        "lineStart": 115,
+        "lineEnd": 115
+      },
+      "group": "174_25810",
+      "isGroup": true
+    },
+    {
+      "key": "174_25806",
+      "calledGraphId": null,
+      "text": "contributer",
+      "description": [
+        "contributer"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 9.0,
+      "forwardDepth": 2.0,
+      "backwardDepth": 11.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Pot.java",
+        "lineStart": 115,
+        "lineEnd": 115
+      },
+      "group": "174_25810"
+    },
+    {
+      "key": "174_25814",
+      "calledGraphId": null,
+      "text": "bet is set to partialBet",
+      "description": [
+        "bet is set to partialBet"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 23.0,
+      "forwardDepth": 5.0,
+      "backwardDepth": 11.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Pot.java",
+        "lineStart": 117,
+        "lineEnd": 117
+      }
+    },
+    {
+      "key": "174_25812",
+      "calledGraphId": null,
+      "text": "partialBet",
+      "description": [
+        "partialBet"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 21.0,
+      "forwardDepth": 3.0,
+      "backwardDepth": 9.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Pot.java",
+        "lineStart": 117,
+        "lineEnd": 117
+      }
+    },
+    {
+      "key": "174_25815",
+      "calledGraphId": null,
+      "text": "contributors",
+      "description": [
+        "contributors"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 15.0,
+      "forwardDepth": 3.0,
+      "backwardDepth": 10.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Pot.java",
+        "lineStart": 118,
+        "lineEnd": 118
+      }
+    },
+    {
+      "key": "174_25818",
+      "calledGraphId": null,
+      "text": "add player",
+      "description": [
+        "add player"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 17.0,
+      "forwardDepth": 5.0,
+      "backwardDepth": 12.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Pot.java",
+        "lineStart": 118,
+        "lineEnd": 118
+      }
+    },
+    {
+      "key": "174_25816",
+      "calledGraphId": null,
+      "text": "player",
+      "description": [
+        "player"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 7.0,
+      "forwardDepth": 1.0,
+      "backwardDepth": 10.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Pot.java",
+        "lineStart": 118,
+        "lineEnd": 118
+      }
+    },
+    {
+      "key": "174_25822",
+      "calledGraphId": null,
+      "text": "pot is set to Create a Pot with bet - partialBet",
+      "description": [
+        "pot is set to Create a Pot with bet - partialBet"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 40.0,
+      "forwardDepth": 11.0,
+      "backwardDepth": 11.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Pot.java",
+        "lineStart": 119,
+        "lineEnd": 119
+      }
+    },
+    {
+      "key": "174_25820",
+      "calledGraphId": null,
+      "text": "pot is set to Create a Pot with bet - partialBet",
+      "description": [
+        "pot is set to Create a Pot with bet - partialBet"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 38.0,
+      "forwardDepth": 9.0,
+      "backwardDepth": 9.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Pot.java",
+        "lineStart": 119,
+        "lineEnd": 119
+      }
+    },
+    {
+      "key": "476_25786_2487",
+      "calledGraphId": null,
+      "text": "Pot",
+      "description": [
+        "Pot"
+      ],
+      "category": "OfInput",
+      "topoIndex": 2.0,
+      "forwardDepth": 0.0,
+      "backwardDepth": 2.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Pot.java",
+        "lineStart": 113,
+        "lineEnd": 113
+      }
+    },
+    {
+      "key": "476_25676_2488",
+      "calledGraphId": null,
+      "text": "bet",
+      "description": [
+        "bet"
+      ],
+      "category": "OfInput",
+      "topoIndex": 6.0,
+      "forwardDepth": 0.0,
+      "backwardDepth": 0.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Pot.java",
+        "lineStart": 36,
+        "lineEnd": 36
+      }
+    },
+    {
+      "key": "476_25783_2489",
+      "calledGraphId": null,
+      "text": "partialBet",
+      "description": [
+        "partialBet"
+      ],
+      "category": "OfInput",
+      "topoIndex": 3.0,
+      "forwardDepth": 0.0,
+      "backwardDepth": 0.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Pot.java",
+        "lineStart": 112,
+        "lineEnd": 112
+      }
+    },
+    {
+      "key": "476_25801_2490",
+      "calledGraphId": null,
+      "text": "contributer",
+      "description": [
+        "contributer"
+      ],
+      "category": "OfInput",
+      "topoIndex": 0.0,
+      "forwardDepth": 0.0,
+      "backwardDepth": 9.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Pot.java",
+        "lineStart": 114,
+        "lineEnd": 114
+      }
+    },
+    {
+      "key": "476_25680_2491",
+      "calledGraphId": null,
+      "text": "contributors",
+      "description": [
+        "contributors"
+      ],
+      "category": "OfInput",
+      "topoIndex": 5.0,
+      "forwardDepth": 0.0,
+      "backwardDepth": 7.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Pot.java",
+        "lineStart": 39,
+        "lineEnd": 39
+      }
+    },
+    {
+      "key": "476_25780_2492",
+      "calledGraphId": null,
+      "text": "player",
+      "description": [
+        "player"
+      ],
+      "category": "OfInput",
+      "topoIndex": 4.0,
+      "forwardDepth": 0.0,
+      "backwardDepth": 9.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Pot.java",
+        "lineStart": 112,
+        "lineEnd": 112
+      }
+    },
+    {
+      "key": "476_25786_2493",
+      "calledGraphId": null,
+      "text": "Pot",
+      "description": [
+        "Pot"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 30.0,
+      "forwardDepth": 2.0,
+      "backwardDepth": 4.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Pot.java",
+        "lineStart": 113,
+        "lineEnd": 113
+      }
+    },
+    {
+      "key": "476_25676_2494",
+      "calledGraphId": null,
+      "text": "bet",
+      "description": [
+        "bet"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 26.0,
+      "forwardDepth": 2.0,
+      "backwardDepth": 2.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Pot.java",
+        "lineStart": 36,
+        "lineEnd": 36
+      }
+    },
+    {
+      "key": "476_25783_2495",
+      "calledGraphId": null,
+      "text": "partialBet",
+      "description": [
+        "partialBet"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 20.0,
+      "forwardDepth": 2.0,
+      "backwardDepth": 2.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Pot.java",
+        "lineStart": 112,
+        "lineEnd": 112
+      }
+    },
+    {
+      "key": "476_25790_2496",
+      "calledGraphId": null,
+      "text": "bet - partialBet",
+      "description": [
+        "bet - partialBet"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 28.0,
+      "forwardDepth": 4.0,
+      "backwardDepth": 4.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Pot.java",
+        "lineStart": 113,
+        "lineEnd": 113
+      }
+    },
+    {
+      "key": "476_25792_2497",
+      "calledGraphId": null,
+      "text": "Create a Pot with bet - partialBet",
+      "description": [
+        "Create a Pot with bet - partialBet"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 32.0,
+      "forwardDepth": 6.0,
+      "backwardDepth": 6.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Pot.java",
+        "lineStart": 113,
+        "lineEnd": 113
+      }
+    },
+    {
+      "key": "476_25796_2498",
+      "calledGraphId": null,
+      "text": "pot is set to Create a Pot with bet - partialBet",
+      "description": [
+        "pot is set to Create a Pot with bet - partialBet"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 34.0,
+      "forwardDepth": 8.0,
+      "backwardDepth": 8.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Pot.java",
+        "lineStart": 113,
+        "lineEnd": 113
+      }
+    },
+    {
+      "key": "476_25796_2499",
+      "calledGraphId": null,
+      "text": "pot is set to Create a Pot with bet - partialBet",
+      "description": [
+        "pot is set to Create a Pot with bet - partialBet"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 37.0,
+      "forwardDepth": 11.0,
+      "backwardDepth": 12.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Pot.java",
+        "lineStart": 113,
+        "lineEnd": 113
+      },
+      "group": "174_25810"
+    },
+    {
+      "key": "476_25801_2500",
+      "calledGraphId": null,
+      "text": "contributer",
+      "description": [
+        "contributer"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 10.0,
+      "forwardDepth": 3.0,
+      "backwardDepth": 12.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Pot.java",
+        "lineStart": 114,
+        "lineEnd": 114
+      },
+      "group": "174_25810"
+    },
+    {
+      "key": "476_25680_2501",
+      "calledGraphId": null,
+      "text": "contributors",
+      "description": [
+        "contributors"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 12.0,
+      "forwardDepth": 2.0,
+      "backwardDepth": 9.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Pot.java",
+        "lineStart": 39,
+        "lineEnd": 39
+      }
+    },
+    {
+      "key": "476_25783_2502",
+      "calledGraphId": null,
+      "text": "partialBet",
+      "description": [
+        "partialBet"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 22.0,
+      "forwardDepth": 4.0,
+      "backwardDepth": 10.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Pot.java",
+        "lineStart": 112,
+        "lineEnd": 112
+      }
+    },
+    {
+      "key": "476_25676_2503",
+      "calledGraphId": null,
+      "text": "bet is set to partialBet",
+      "description": [
+        "bet is set to partialBet"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 24.0,
+      "forwardDepth": 6.0,
+      "backwardDepth": 12.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Pot.java",
+        "lineStart": 36,
+        "lineEnd": 36
+      }
+    },
+    {
+      "key": "476_25680_2504",
+      "calledGraphId": null,
+      "text": "contributors",
+      "description": [
+        "contributors"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 16.0,
+      "forwardDepth": 4.0,
+      "backwardDepth": 11.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Pot.java",
+        "lineStart": 39,
+        "lineEnd": 39
+      }
+    },
+    {
+      "key": "476_25780_2505",
+      "calledGraphId": null,
+      "text": "player",
+      "description": [
+        "player"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 8.0,
+      "forwardDepth": 2.0,
+      "backwardDepth": 11.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Pot.java",
+        "lineStart": 112,
+        "lineEnd": 112
+      }
+    },
+    {
+      "key": "476_25796_2506",
+      "calledGraphId": null,
+      "text": "pot is set to Create a Pot with bet - partialBet",
+      "description": [
+        "pot is set to Create a Pot with bet - partialBet"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 39.0,
+      "forwardDepth": 10.0,
+      "backwardDepth": 10.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Pot.java",
+        "lineStart": 113,
+        "lineEnd": 113
+      }
+    },
+    {
+      "key": "476_25822_2507",
+      "calledGraphId": null,
+      "text": "pot is set to Create a Pot with bet - partialBet",
+      "description": [
+        "pot is set to Create a Pot with bet - partialBet"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 41.0,
+      "forwardDepth": 12.0,
+      "backwardDepth": 12.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Pot.java",
+        "lineStart": 119,
+        "lineEnd": 119
+      }
+    },
+    {
+      "key": "476_25796_2498_174_25810",
+      "calledGraphId": null,
+      "text": "pot is set to Create a Pot with bet - partialBet",
+      "description": [
+        "pot is set to Create a Pot with bet - partialBet"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 35.0,
+      "forwardDepth": 9.0,
+      "backwardDepth": 10.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Pot.java",
+        "lineStart": 113,
+        "lineEnd": 113
+      },
+      "group": "174_25810"
+    },
+    {
+      "key": "476_25801_2490_174_25810",
+      "calledGraphId": null,
+      "text": "contributer",
+      "description": [
+        "contributer"
+      ],
+      "category": "OfInput",
+      "topoIndex": 1.0,
+      "forwardDepth": 1.0,
+      "backwardDepth": 10.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Pot.java",
+        "lineStart": 114,
+        "lineEnd": 114
+      },
+      "group": "174_25810"
+    },
+    {
+      "key": "476_25680_2501_174_25810",
+      "calledGraphId": null,
+      "text": "contributors",
+      "description": [
+        "contributors"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 13.0,
+      "forwardDepth": 3.0,
+      "backwardDepth": 11.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/Pot.java",
+        "lineStart": 39,
+        "lineEnd": 39
+      },
+      "group": "174_25810"
+    }
+  ],
+  "linkList": [
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "174_25795"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "476_25796_2498"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "476_25792_2497"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "174_25795"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "174_25786"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "476_25786_2493"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "476_25786_2487"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "174_25786"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "174_25792"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "476_25792_2497"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "476_25786_2493"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "174_25792"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "476_25790_2496"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "174_25792"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "174_25790"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "476_25790_2496"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "476_25676_2494"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "174_25790"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "476_25783_2495"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "174_25790"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "174_25787"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "476_25676_2494"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "476_25676_2488"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "174_25787"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "174_25788"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "476_25783_2495"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "476_25783_2489"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "174_25788"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "476_25680_2501"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "174_25810"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "174_25803"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "476_25680_2501"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "476_25680_2491"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "174_25803"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "174_25805"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "476_25796_2499"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "476_25796_2498_174_25810"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "174_25805"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "476_25680_2501_174_25810"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "174_25808"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "174_25806"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "476_25801_2500"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "476_25801_2490_174_25810"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "174_25806"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "174_25814"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "476_25676_2503"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "476_25783_2502"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "174_25814"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "174_25812"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "476_25783_2502"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "476_25783_2495"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "174_25812"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "174_25815"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "476_25680_2504"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "476_25680_2501"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "174_25815"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "476_25680_2504"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "174_25818"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "476_25780_2505"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "174_25818"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "174_25816"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "476_25780_2505"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "476_25780_2492"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "174_25816"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "174_25822"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "476_25822_2507"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "476_25796_2506"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "174_25822"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "174_25820"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "476_25796_2506"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "476_25796_2498"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "174_25820"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "476_25801_2490"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "476_25801_2490_174_25810"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "476_25796_2498"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "476_25796_2498_174_25810"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "476_25680_2501"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "476_25680_2501_174_25810"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "476_25680_2501_174_25810"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "174_25808",
+        "nodeIdInCalledGraph": "472_25680_2470"
+      }
+    }
+  ],
+  "meta": {
+    "methodName": "org.ozsoft.texasholdem.Pot.split(org.ozsoft.texasholdem.Player [Public], int) [Public]",
+    "codeReference": {
+      "fileName": "ozsoft/texasholdem/Pot.java",
+      "lineStart": 112,
+      "lineEnd": 120
+    }
+  }
+};

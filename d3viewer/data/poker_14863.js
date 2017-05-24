@@ -1,0 +1,1264 @@
+      var data = {
+  "nodeList": [
+    {
+      "key": "259_14808",
+      "calledGraphId": null,
+      "text": "gridx of gc is set to x",
+      "description": [
+        "gridx of gc is set to x"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 48.0,
+      "forwardDepth": 3.0,
+      "backwardDepth": 5.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/gui/Main.java",
+        "lineStart": 246,
+        "lineEnd": 246
+      }
+    },
+    {
+      "key": "259_14806",
+      "calledGraphId": null,
+      "text": "x",
+      "description": [
+        "x"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 46.0,
+      "forwardDepth": 1.0,
+      "backwardDepth": 3.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/gui/Main.java",
+        "lineStart": 246,
+        "lineEnd": 246
+      }
+    },
+    {
+      "key": "259_14814",
+      "calledGraphId": null,
+      "text": "gridy of gc is set to y",
+      "description": [
+        "gridy of gc is set to y"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 44.0,
+      "forwardDepth": 3.0,
+      "backwardDepth": 5.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/gui/Main.java",
+        "lineStart": 247,
+        "lineEnd": 247
+      }
+    },
+    {
+      "key": "259_14812",
+      "calledGraphId": null,
+      "text": "y",
+      "description": [
+        "y"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 42.0,
+      "forwardDepth": 1.0,
+      "backwardDepth": 3.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/gui/Main.java",
+        "lineStart": 247,
+        "lineEnd": 247
+      }
+    },
+    {
+      "key": "259_14820",
+      "calledGraphId": null,
+      "text": "gridwidth of gc is set to width",
+      "description": [
+        "gridwidth of gc is set to width"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 40.0,
+      "forwardDepth": 3.0,
+      "backwardDepth": 5.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/gui/Main.java",
+        "lineStart": 248,
+        "lineEnd": 248
+      }
+    },
+    {
+      "key": "259_14818",
+      "calledGraphId": null,
+      "text": "width",
+      "description": [
+        "width"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 38.0,
+      "forwardDepth": 1.0,
+      "backwardDepth": 3.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/gui/Main.java",
+        "lineStart": 248,
+        "lineEnd": 248
+      }
+    },
+    {
+      "key": "259_14826",
+      "calledGraphId": null,
+      "text": "gridheight of gc is set to height",
+      "description": [
+        "gridheight of gc is set to height"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 36.0,
+      "forwardDepth": 3.0,
+      "backwardDepth": 5.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/gui/Main.java",
+        "lineStart": 249,
+        "lineEnd": 249
+      }
+    },
+    {
+      "key": "259_14824",
+      "calledGraphId": null,
+      "text": "height",
+      "description": [
+        "height"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 34.0,
+      "forwardDepth": 1.0,
+      "backwardDepth": 3.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/gui/Main.java",
+        "lineStart": 249,
+        "lineEnd": 249
+      }
+    },
+    {
+      "key": "259_14834",
+      "calledGraphId": null,
+      "text": "anchor of gc is set to CENTER of GridBagConstraints",
+      "description": [
+        "anchor of gc is set to CENTER of GridBagConstraints"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 32.0,
+      "forwardDepth": 5.0,
+      "backwardDepth": 5.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/gui/Main.java",
+        "lineStart": 250,
+        "lineEnd": 250
+      }
+    },
+    {
+      "key": "259_14830",
+      "calledGraphId": null,
+      "text": "GridBagConstraints",
+      "description": [
+        "GridBagConstraints"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 28.0,
+      "forwardDepth": 1.0,
+      "backwardDepth": 1.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/gui/Main.java",
+        "lineStart": 250,
+        "lineEnd": 250
+      }
+    },
+    {
+      "key": "259_14831",
+      "calledGraphId": null,
+      "text": "CENTER",
+      "description": [
+        "CENTER"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 30.0,
+      "forwardDepth": 3.0,
+      "backwardDepth": 3.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/gui/Main.java",
+        "lineStart": 250,
+        "lineEnd": 250
+      }
+    },
+    {
+      "key": "259_14842",
+      "calledGraphId": null,
+      "text": "fill of gc is set to NONE of GridBagConstraints",
+      "description": [
+        "fill of gc is set to NONE of GridBagConstraints"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 26.0,
+      "forwardDepth": 5.0,
+      "backwardDepth": 5.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/gui/Main.java",
+        "lineStart": 251,
+        "lineEnd": 251
+      }
+    },
+    {
+      "key": "259_14838",
+      "calledGraphId": null,
+      "text": "GridBagConstraints",
+      "description": [
+        "GridBagConstraints"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 22.0,
+      "forwardDepth": 1.0,
+      "backwardDepth": 1.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/gui/Main.java",
+        "lineStart": 251,
+        "lineEnd": 251
+      }
+    },
+    {
+      "key": "259_14839",
+      "calledGraphId": null,
+      "text": "NONE",
+      "description": [
+        "NONE"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 24.0,
+      "forwardDepth": 3.0,
+      "backwardDepth": 3.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/gui/Main.java",
+        "lineStart": 251,
+        "lineEnd": 251
+      }
+    },
+    {
+      "key": "259_14848",
+      "calledGraphId": null,
+      "text": "weightx of gc is set to 0.0",
+      "description": [
+        "weightx of gc is set to 0.0"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 20.0,
+      "forwardDepth": 1.0,
+      "backwardDepth": 5.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/gui/Main.java",
+        "lineStart": 252,
+        "lineEnd": 252
+      }
+    },
+    {
+      "key": "259_14854",
+      "calledGraphId": null,
+      "text": "weighty of gc is set to 0.0",
+      "description": [
+        "weighty of gc is set to 0.0"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 18.0,
+      "forwardDepth": 1.0,
+      "backwardDepth": 5.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/gui/Main.java",
+        "lineStart": 253,
+        "lineEnd": 253
+      }
+    },
+    {
+      "key": "259_14855",
+      "calledGraphId": null,
+      "text": "getContentPane",
+      "description": [
+        "getContentPane"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 15.0,
+      "forwardDepth": 0.0,
+      "backwardDepth": 4.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/gui/Main.java",
+        "lineStart": 254,
+        "lineEnd": 254
+      }
+    },
+    {
+      "key": "259_14860",
+      "calledGraphId": null,
+      "text": "add with component and gc",
+      "description": [
+        "add with component and gc"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 17.0,
+      "forwardDepth": 3.0,
+      "backwardDepth": 6.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/gui/Main.java",
+        "lineStart": 254,
+        "lineEnd": 254
+      }
+    },
+    {
+      "key": "259_14856",
+      "calledGraphId": null,
+      "text": "component",
+      "description": [
+        "component"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 13.0,
+      "forwardDepth": 1.0,
+      "backwardDepth": 4.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/gui/Main.java",
+        "lineStart": 254,
+        "lineEnd": 254
+      }
+    },
+    {
+      "key": "259_14858",
+      "calledGraphId": null,
+      "text": "gc",
+      "description": [
+        "gc"
+      ],
+      "category": "OfActivity",
+      "topoIndex": 11.0,
+      "forwardDepth": 1.0,
+      "backwardDepth": 4.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/gui/Main.java",
+        "lineStart": 254,
+        "lineEnd": 254
+      }
+    },
+    {
+      "key": "337_14090_1343",
+      "calledGraphId": null,
+      "text": "gc",
+      "description": [
+        "gc"
+      ],
+      "category": "OfInput",
+      "topoIndex": 10.0,
+      "forwardDepth": 0.0,
+      "backwardDepth": 3.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/gui/Main.java",
+        "lineStart": 67,
+        "lineEnd": 67
+      }
+    },
+    {
+      "key": "337_14799_1345",
+      "calledGraphId": null,
+      "text": "x",
+      "description": [
+        "x"
+      ],
+      "category": "OfInput",
+      "topoIndex": 8.0,
+      "forwardDepth": 0.0,
+      "backwardDepth": 2.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/gui/Main.java",
+        "lineStart": 245,
+        "lineEnd": 245
+      }
+    },
+    {
+      "key": "337_14800_1347",
+      "calledGraphId": null,
+      "text": "y",
+      "description": [
+        "y"
+      ],
+      "category": "OfInput",
+      "topoIndex": 7.0,
+      "forwardDepth": 0.0,
+      "backwardDepth": 2.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/gui/Main.java",
+        "lineStart": 245,
+        "lineEnd": 245
+      }
+    },
+    {
+      "key": "337_14801_1349",
+      "calledGraphId": null,
+      "text": "width",
+      "description": [
+        "width"
+      ],
+      "category": "OfInput",
+      "topoIndex": 6.0,
+      "forwardDepth": 0.0,
+      "backwardDepth": 2.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/gui/Main.java",
+        "lineStart": 245,
+        "lineEnd": 245
+      }
+    },
+    {
+      "key": "337_14802_1351",
+      "calledGraphId": null,
+      "text": "height",
+      "description": [
+        "height"
+      ],
+      "category": "OfInput",
+      "topoIndex": 5.0,
+      "forwardDepth": 0.0,
+      "backwardDepth": 2.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/gui/Main.java",
+        "lineStart": 245,
+        "lineEnd": 245
+      }
+    },
+    {
+      "key": "337_14830_1353",
+      "calledGraphId": null,
+      "text": "GridBagConstraints",
+      "description": [
+        "GridBagConstraints"
+      ],
+      "category": "OfInput",
+      "topoIndex": 4.0,
+      "forwardDepth": 0.0,
+      "backwardDepth": 0.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/gui/Main.java",
+        "lineStart": 250,
+        "lineEnd": 250
+      }
+    },
+    {
+      "key": "337_14831_1354",
+      "calledGraphId": null,
+      "text": "CENTER",
+      "description": [
+        "CENTER"
+      ],
+      "category": "OfInput",
+      "topoIndex": 3.0,
+      "forwardDepth": 0.0,
+      "backwardDepth": 2.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/gui/Main.java",
+        "lineStart": 250,
+        "lineEnd": 250
+      }
+    },
+    {
+      "key": "337_14838_1356",
+      "calledGraphId": null,
+      "text": "GridBagConstraints",
+      "description": [
+        "GridBagConstraints"
+      ],
+      "category": "OfInput",
+      "topoIndex": 2.0,
+      "forwardDepth": 0.0,
+      "backwardDepth": 0.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/gui/Main.java",
+        "lineStart": 251,
+        "lineEnd": 251
+      }
+    },
+    {
+      "key": "337_14839_1357",
+      "calledGraphId": null,
+      "text": "NONE",
+      "description": [
+        "NONE"
+      ],
+      "category": "OfInput",
+      "topoIndex": 1.0,
+      "forwardDepth": 0.0,
+      "backwardDepth": 2.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/gui/Main.java",
+        "lineStart": 251,
+        "lineEnd": 251
+      }
+    },
+    {
+      "key": "337_14846_1359",
+      "calledGraphId": null,
+      "text": "0.0",
+      "description": [
+        "0.0"
+      ],
+      "category": "OfValue",
+      "topoIndex": 0.0,
+      "forwardDepth": 0.0,
+      "backwardDepth": 4.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/gui/Main.java",
+        "lineStart": 252,
+        "lineEnd": 252
+      }
+    },
+    {
+      "key": "337_14796_1361",
+      "calledGraphId": null,
+      "text": "component",
+      "description": [
+        "component"
+      ],
+      "category": "OfInput",
+      "topoIndex": 9.0,
+      "forwardDepth": 0.0,
+      "backwardDepth": 3.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/gui/Main.java",
+        "lineStart": 245,
+        "lineEnd": 245
+      }
+    },
+    {
+      "key": "337_14799_1362",
+      "calledGraphId": null,
+      "text": "x",
+      "description": [
+        "x"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 47.0,
+      "forwardDepth": 2.0,
+      "backwardDepth": 4.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/gui/Main.java",
+        "lineStart": 245,
+        "lineEnd": 245
+      }
+    },
+    {
+      "key": "337_14804_1363",
+      "calledGraphId": null,
+      "text": "gridx of gc is set to x",
+      "description": [
+        "gridx of gc is set to x"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 49.0,
+      "forwardDepth": 4.0,
+      "backwardDepth": 6.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/gui/Main.java",
+        "lineStart": 246,
+        "lineEnd": 246
+      }
+    },
+    {
+      "key": "337_14800_1364",
+      "calledGraphId": null,
+      "text": "y",
+      "description": [
+        "y"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 43.0,
+      "forwardDepth": 2.0,
+      "backwardDepth": 4.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/gui/Main.java",
+        "lineStart": 245,
+        "lineEnd": 245
+      }
+    },
+    {
+      "key": "337_14810_1365",
+      "calledGraphId": null,
+      "text": "gridy of gc is set to y",
+      "description": [
+        "gridy of gc is set to y"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 45.0,
+      "forwardDepth": 4.0,
+      "backwardDepth": 6.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/gui/Main.java",
+        "lineStart": 247,
+        "lineEnd": 247
+      }
+    },
+    {
+      "key": "337_14801_1366",
+      "calledGraphId": null,
+      "text": "width",
+      "description": [
+        "width"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 39.0,
+      "forwardDepth": 2.0,
+      "backwardDepth": 4.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/gui/Main.java",
+        "lineStart": 245,
+        "lineEnd": 245
+      }
+    },
+    {
+      "key": "337_14816_1367",
+      "calledGraphId": null,
+      "text": "gridwidth of gc is set to width",
+      "description": [
+        "gridwidth of gc is set to width"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 41.0,
+      "forwardDepth": 4.0,
+      "backwardDepth": 6.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/gui/Main.java",
+        "lineStart": 248,
+        "lineEnd": 248
+      }
+    },
+    {
+      "key": "337_14802_1368",
+      "calledGraphId": null,
+      "text": "height",
+      "description": [
+        "height"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 35.0,
+      "forwardDepth": 2.0,
+      "backwardDepth": 4.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/gui/Main.java",
+        "lineStart": 245,
+        "lineEnd": 245
+      }
+    },
+    {
+      "key": "337_14822_1369",
+      "calledGraphId": null,
+      "text": "gridheight of gc is set to height",
+      "description": [
+        "gridheight of gc is set to height"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 37.0,
+      "forwardDepth": 4.0,
+      "backwardDepth": 6.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/gui/Main.java",
+        "lineStart": 249,
+        "lineEnd": 249
+      }
+    },
+    {
+      "key": "337_14830_1370",
+      "calledGraphId": null,
+      "text": "GridBagConstraints",
+      "description": [
+        "GridBagConstraints"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 29.0,
+      "forwardDepth": 2.0,
+      "backwardDepth": 2.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/gui/Main.java",
+        "lineStart": 250,
+        "lineEnd": 250
+      }
+    },
+    {
+      "key": "337_14831_1371",
+      "calledGraphId": null,
+      "text": "CENTER",
+      "description": [
+        "CENTER"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 31.0,
+      "forwardDepth": 4.0,
+      "backwardDepth": 4.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/gui/Main.java",
+        "lineStart": 250,
+        "lineEnd": 250
+      }
+    },
+    {
+      "key": "337_14828_1372",
+      "calledGraphId": null,
+      "text": "anchor of gc is set to CENTER of GridBagConstraints",
+      "description": [
+        "anchor of gc is set to CENTER of GridBagConstraints"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 33.0,
+      "forwardDepth": 6.0,
+      "backwardDepth": 6.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/gui/Main.java",
+        "lineStart": 250,
+        "lineEnd": 250
+      }
+    },
+    {
+      "key": "337_14838_1373",
+      "calledGraphId": null,
+      "text": "GridBagConstraints",
+      "description": [
+        "GridBagConstraints"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 23.0,
+      "forwardDepth": 2.0,
+      "backwardDepth": 2.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/gui/Main.java",
+        "lineStart": 251,
+        "lineEnd": 251
+      }
+    },
+    {
+      "key": "337_14839_1374",
+      "calledGraphId": null,
+      "text": "NONE",
+      "description": [
+        "NONE"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 25.0,
+      "forwardDepth": 4.0,
+      "backwardDepth": 4.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/gui/Main.java",
+        "lineStart": 251,
+        "lineEnd": 251
+      }
+    },
+    {
+      "key": "337_14836_1375",
+      "calledGraphId": null,
+      "text": "fill of gc is set to NONE of GridBagConstraints",
+      "description": [
+        "fill of gc is set to NONE of GridBagConstraints"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 27.0,
+      "forwardDepth": 6.0,
+      "backwardDepth": 6.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/gui/Main.java",
+        "lineStart": 251,
+        "lineEnd": 251
+      }
+    },
+    {
+      "key": "337_14844_1376",
+      "calledGraphId": null,
+      "text": "weightx of gc is set to 0.0",
+      "description": [
+        "weightx of gc is set to 0.0"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 21.0,
+      "forwardDepth": 2.0,
+      "backwardDepth": 6.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/gui/Main.java",
+        "lineStart": 252,
+        "lineEnd": 252
+      }
+    },
+    {
+      "key": "337_14850_1377",
+      "calledGraphId": null,
+      "text": "weighty of gc is set to 0.0",
+      "description": [
+        "weighty of gc is set to 0.0"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 19.0,
+      "forwardDepth": 2.0,
+      "backwardDepth": 6.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/gui/Main.java",
+        "lineStart": 253,
+        "lineEnd": 253
+      }
+    },
+    {
+      "key": "337_14855_1378",
+      "calledGraphId": null,
+      "text": "getContentPane",
+      "description": [
+        "getContentPane"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 16.0,
+      "forwardDepth": 1.0,
+      "backwardDepth": 5.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/gui/Main.java",
+        "lineStart": 254,
+        "lineEnd": 254
+      }
+    },
+    {
+      "key": "337_14796_1379",
+      "calledGraphId": null,
+      "text": "component",
+      "description": [
+        "component"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 14.0,
+      "forwardDepth": 2.0,
+      "backwardDepth": 5.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/gui/Main.java",
+        "lineStart": 245,
+        "lineEnd": 245
+      }
+    },
+    {
+      "key": "337_14090_1380",
+      "calledGraphId": null,
+      "text": "gc",
+      "description": [
+        "gc"
+      ],
+      "category": "OfOutput",
+      "topoIndex": 12.0,
+      "forwardDepth": 2.0,
+      "backwardDepth": 5.0,
+      "codeReference": {
+        "fileName": "ozsoft/texasholdem/gui/Main.java",
+        "lineStart": 67,
+        "lineEnd": 67
+      }
+    }
+  ],
+  "linkList": [
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "259_14808"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "337_14804_1363"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "337_14090_1343"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "259_14808"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "337_14799_1362"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "259_14808"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "259_14806"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "337_14799_1362"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "337_14799_1345"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "259_14806"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "259_14814"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "337_14810_1365"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "337_14090_1343"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "259_14814"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "337_14800_1364"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "259_14814"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "259_14812"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "337_14800_1364"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "337_14800_1347"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "259_14812"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "259_14820"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "337_14816_1367"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "337_14090_1343"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "259_14820"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "337_14801_1366"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "259_14820"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "259_14818"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "337_14801_1366"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "337_14801_1349"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "259_14818"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "259_14826"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "337_14822_1369"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "337_14090_1343"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "259_14826"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "337_14802_1368"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "259_14826"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "259_14824"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "337_14802_1368"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "337_14802_1351"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "259_14824"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "259_14834"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "337_14828_1372"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "337_14090_1343"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "259_14834"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "337_14831_1371"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "259_14834"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "259_14830"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "337_14830_1370"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "337_14830_1353"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "259_14830"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "259_14831"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "337_14831_1371"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "337_14831_1354"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "259_14831"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "337_14830_1370"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "259_14831"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "259_14842"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "337_14836_1375"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "337_14090_1343"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "259_14842"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "337_14839_1374"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "259_14842"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "259_14838"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "337_14838_1373"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "337_14838_1356"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "259_14838"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "259_14839"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "337_14839_1374"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "337_14839_1357"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "259_14839"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "337_14838_1373"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "259_14839"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "259_14848"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "337_14844_1376"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "337_14090_1343"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "259_14848"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "337_14846_1359"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "259_14848"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "259_14854"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "337_14850_1377"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "337_14090_1343"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "259_14854"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "337_14846_1359"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "259_14854"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "259_14855"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "337_14855_1378"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "337_14855_1378"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "259_14860"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "337_14796_1379"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "259_14860"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "337_14090_1380"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "259_14860"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "259_14856"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "337_14796_1379"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "337_14796_1361"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "259_14856"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "259_14858"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "337_14090_1380"
+      }
+    },
+    {
+      "from": {
+        "nodeIdInCurrentGraph": "337_14090_1343"
+      },
+      "to": {
+        "nodeIdInCurrentGraph": "259_14858"
+      }
+    }
+  ],
+  "meta": {
+    "methodName": "org.ozsoft.texasholdem.gui.Main.addComponent(java.awt.Component, int, int, int, int) [Private]",
+    "codeReference": {
+      "fileName": "ozsoft/texasholdem/gui/Main.java",
+      "lineStart": 245,
+      "lineEnd": 255
+    }
+  }
+};
