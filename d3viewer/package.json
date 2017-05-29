@@ -4,19 +4,14 @@
   "description": "A sample Data Flow Graph viewer using D3.js",
   "main": "index.js",
   "scripts": {
-    "start": "node_modules/.bin/webpack-dev-server",
     "build:schema": "node_modules/.bin/json2ts -i ../jsonscheme/ioca_json_schema.json -o app/client/json-data.ts",
-    "build": "node_modules/.bin/webpack",
-    "build:watch": "node_modules/.bin/webpack -w",
-    "clean": "rm -rf ./dist/*",
-    "test-pretty": "npm test | node_modules/.bin/faucet",
-    "test": "node_modules/.bin/ts-node node_modules/.bin/tape 'test/**/*.ts'"
+    "build": "node_modules/.bin/webpack -p",
+    "dev": "node_modules/.bin/webpack -w"
   },
   "author": "Deep Algo",
   "license": "ISC",
   "devDependencies": {
     "@types/d3": "^4.9.0",
-    "@types/immutable": "^3.8.7",
     "@types/jquery": "^2.0.45",
     "@types/jqueryui": "^1.11.32",
     "@types/lodash": "^4.14.64",
@@ -28,7 +23,6 @@
     "lodash": "^4.17.4",
     "ts-loader": "^2.1.0",
     "typescript": "^2.3.3",
-    "webpack": "^2.6.0",
-    "webpack-dev-server": "^2.4.5"
+    "webpack": "^2.6.0"
   }
 }
