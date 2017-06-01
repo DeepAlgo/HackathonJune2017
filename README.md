@@ -102,6 +102,7 @@ The jury will elect the most comprehensive visualization. That is:
     The jury won't have access to the code!
   * Simple: ease of use
   * Technically feasible
+  * Hot factor – Potential
 
 For the sake of fairness, all participants will present the result of their
 work on the same set of data.
