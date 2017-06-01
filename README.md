@@ -125,7 +125,7 @@ images.
 
 ### You have questions
 
- * [Deep Algo slack](https://deepalgo.slack.com/shared_invite/MTg2NjI3NTgyMDE3LTE0OTU2MTMwMTctMjg5Yjc4NTEzOQ)
+ * [Deep Algo slack](https://join.slack.com/deepalgo/shared_invite/MTkxMzE1ODQ0MTY1LTE0OTYzMjc4NTYtM2IzNDhiMmZlZQ)
  * Open an issue on our [Deep Algo GitHub](https://github.com/DeepAlgo/HackathonJune2017/issues)
 
 ### Other resources
